@@ -21,7 +21,10 @@ var beerScheme = new Schema({
     imgFilePath: {
         type: String
     },
-    rating: {
+    adminRating: {
+        type: Number
+    },
+    userRating: {
         type: Number
     }
 })
