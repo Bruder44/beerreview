@@ -1,806 +1,607 @@
 
 {
-    "beers":[
-    {
-    "beer":"Mexican Siberius Maximus",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/25800/103433/",
-    "style":"Russian Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/84/",
-    "brewer":"The Wrecking Bar Brewpub",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/25800/"
-    },
-    {
-    "beer":"Existence",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/224963/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Duende",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/256764/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Tropicália",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/118865/",
-    "style":"New England IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/189/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Cosmik Debris",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/167774/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Burial Truce",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/235052/",
-    "style":"Russian Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/84/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Emergence",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/163433/",
-    "style":"American Wild Ale",
-    "style_url":"https://www.beeradvocate.com/beer/styles/171/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Helm's Deep - German Chocolate",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/297976/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Athena Paradiso - Cranberry, Raspberry, Tart Cherry",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/211869/",
-    "style":"Berliner Weisse",
-    "style_url":"https://www.beeradvocate.com/beer/styles/87/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Southerly Love",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/143953/",
-    "style":"American Wild Ale",
-    "style_url":"https://www.beeradvocate.com/beer/styles/171/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"W-n-B Coffee Oatmeal Imperial Stout",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/2372/21950/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Terrapin Beer Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/2372/"
-    },
-    {
-    "beer":"Charred Walls Of The Damned",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/105782/",
-    "style":"Belgian Quadrupel (Quad)",
-    "style_url":"https://www.beeradvocate.com/beer/styles/142/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Athena Paradiso - Passion Fruit And Guava",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/190514/",
-    "style":"Berliner Weisse",
-    "style_url":"https://www.beeradvocate.com/beer/styles/87/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Barrel Aged Kolb's Farm",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/107873/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Crescendo",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/254287/",
-    "style":"New England IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/189/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"The Didjits Blood Orange IPA",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/81056/",
-    "style":"New England IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/189/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Height Of Civilization",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/23651/166349/",
-    "style":"British Barleywine",
-    "style_url":"https://www.beeradvocate.com/beer/styles/152/",
-    "brewer":"Wild Heaven Beer",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/23651/"
-    },
-    {
-    "beer":"We're Desperate: An Ale For X",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/99911/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"The 12th Labor-Bourbon Barrel Aged",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/170848/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Killdozer 12 Point Buck",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/80642/",
-    "style":"American Barleywine",
-    "style_url":"https://www.beeradvocate.com/beer/styles/19/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Abandon All Hope",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/233070/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Barrel Aged Coffee Absentium",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/46938/287452/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Scofflaw Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/46938/"
-    },
-    {
-    "beer":"Automatic",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/181005/",
-    "style":"American Pale Ale (APA)",
-    "style_url":"https://www.beeradvocate.com/beer/styles/97/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Modern Comforts",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/271970/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Cucumber & Lime Tritonia",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/139896/",
-    "style":"Leipzig Gose",
-    "style_url":"https://www.beeradvocate.com/beer/styles/16/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Sweetwater Dank Tank Fresh Sticky Nugs",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/273/75160/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"SweetWater Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/273/"
-    },
-    {
-    "beer":"Koko Buni",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/144661/",
-    "style":"American Porter",
-    "style_url":"https://www.beeradvocate.com/beer/styles/159/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Helm's Deep",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/258993/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Noggin Knocker",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/109738/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Hop Noggin",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/25800/105251/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"The Wrecking Bar Brewpub",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/25800/"
-    },
-    {
-    "beer":"Bourbon Barrel Wake-n-Bake",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/2372/168870/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Terrapin Beer Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/2372/"
-    },
-    {
-    "beer":"Barrel Aged Coconut Absentium",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/46938/306018/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Scofflaw Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/46938/"
-    },
-    {
-    "beer":"Big Shanty Graham Cracker Stout",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/80646/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Morning Smack",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/332539/",
-    "style":"English Sweet / Milk Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/82/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Even The Furies Wept",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/173981/",
-    "style":"Belgian Saison",
-    "style_url":"https://www.beeradvocate.com/beer/styles/129/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Hopgasm",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/1032/45891/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Five Seasons Prado",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/1032/"
-    },
-    {
-    "beer":"Awaken, My Love",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/331436/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Lake Of Fire",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/119312/",
-    "style":"Rye Beer",
-    "style_url":"https://www.beeradvocate.com/beer/styles/12/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Athena Paradiso",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/126071/",
-    "style":"Berliner Weisse",
-    "style_url":"https://www.beeradvocate.com/beer/styles/87/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Space Lettuce",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/26516/316035/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Monday Night Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/26516/"
-    },
-    {
-    "beer":"Moon Station Bitter AKA MSB",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/119311/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Coconut Porter",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32453/98626/",
-    "style":"American Porter",
-    "style_url":"https://www.beeradvocate.com/beer/styles/159/",
-    "brewer":"Cherry Street Brewing Cooperative",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32453/"
-    },
-    {
-    "beer":"Hooligan",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/46938/259008/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Scofflaw Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/46938/"
-    },
-    {
-    "beer":"Double Koko Buni",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/224137/",
-    "style":"American Imperial Porter",
-    "style_url":"https://www.beeradvocate.com/beer/styles/192/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Basement IPA",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/46938/246740/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Scofflaw Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/46938/"
-    },
-    {
-    "beer":"Transmigration Of Souls",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/123961/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Old Wooden Head",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/85429/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Life.Death.Life.Truth",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/141397/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Tears Of My Enemies - Scotch Barrel-Aged",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/26516/267515/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Monday Night Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/26516/"
-    },
-    {
-    "beer":"Terrapin Moo-HooChiato",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/2372/143676/",
-    "style":"English Sweet / Milk Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/82/",
-    "brewer":"Terrapin Beer Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/2372/"
-    },
-    {
-    "beer":"Get Comfortable",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/205344/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Jemmy Dean Breakfast Stout",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/25800/120750/",
-    "style":"American Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/158/",
-    "brewer":"The Wrecking Bar Brewpub",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/25800/"
-    },
-    {
-    "beer":"POG Basement",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/46938/278204/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Scofflaw Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/46938/"
-    },
-    {
-    "beer":"Siberius Maximus",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/25800/78447/",
-    "style":"Russian Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/84/",
-    "brewer":"The Wrecking Bar Brewpub",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/25800/"
-    },
-    {
-    "beer":"Double Jeopardy",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/46938/246742/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Scofflaw Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/46938/"
-    },
-    {
-    "beer":"Die Kreuzen Imperial Pumpkin Porter",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/86490/",
-    "style":"American Imperial Porter",
-    "style_url":"https://www.beeradvocate.com/beer/styles/192/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Loopulus",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/288519/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Fighting Bishop",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/152332/",
-    "style":"Belgian Tripel",
-    "style_url":"https://www.beeradvocate.com/beer/styles/58/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Eschaton",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/23651/73795/",
-    "style":"Belgian Quadrupel (Quad)",
-    "style_url":"https://www.beeradvocate.com/beer/styles/142/",
-    "brewer":"Wild Heaven Beer",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/23651/"
-    },
-    {
-    "beer":"Southern Juicy Juice",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32382/313235/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Jekyll Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32382/"
-    },
-    {
-    "beer":"Inceptus",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/182422/",
-    "style":"American Wild Ale",
-    "style_url":"https://www.beeradvocate.com/beer/styles/171/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Juice Willis",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/25800/271997/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"The Wrecking Bar Brewpub",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/25800/"
-    },
-    {
-    "beer":"Athena Dry Hopped With Galaxy",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/148717/",
-    "style":"Berliner Weisse",
-    "style_url":"https://www.beeradvocate.com/beer/styles/87/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Dank Tank: Fresh Sticky Nugs (2017)",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/273/309165/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"SweetWater Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/273/"
-    },
-    {
-    "beer":"Warpig",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/40145/242435/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"The Southern Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/40145/"
-    },
-    {
-    "beer":"Departed Spirit",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/172236/",
-    "style":"Russian Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/84/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Truth.Body.Soul.",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/233066/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Spanish Bombs Habenero IPA",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/149631/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Misty Valley Reclaimed Rye",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/119438/",
-    "style":"American Amber / Red Ale",
-    "style_url":"https://www.beeradvocate.com/beer/styles/128/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Alpha Abstraction, Vol. 3",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/49548/375366/",
-    "style":"New England IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/189/",
-    "brewer":"Wild Leap Brew Co",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/49548/"
-    },
-    {
-    "beer":"Alpha Abstraction, Vol. 2",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/49548/364803/",
-    "style":"New England IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/189/",
-    "brewer":"Wild Leap Brew Co",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/49548/"
-    },
-    {
-    "beer":"Transmission",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/235520/",
-    "style":"Belgian Saison",
-    "style_url":"https://www.beeradvocate.com/beer/styles/129/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Moke",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/177847/",
-    "style":"American Pale Ale (APA)",
-    "style_url":"https://www.beeradvocate.com/beer/styles/97/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Declaration",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/33522/180438/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Reformation Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/33522/"
-    },
-    {
-    "beer":"Imperial Trop Haze",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/375533/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Bourbon Barrel Aged Imperial Stout",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/273/185689/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"SweetWater Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/273/"
-    },
-    {
-    "beer":"Oh Fantastic Then!",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/272312/",
-    "style":"American Pale Ale (APA)",
-    "style_url":"https://www.beeradvocate.com/beer/styles/97/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Steppin' Razor",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32453/283586/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Cherry Street Brewing Cooperative",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32453/"
-    },
-    {
-    "beer":"Cannon Dragger",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/81057/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"The 12th Labor",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/148706/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Feest Noel",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/105783/",
-    "style":"Belgian Quadrupel (Quad)",
-    "style_url":"https://www.beeradvocate.com/beer/styles/142/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Friend Of The Farmer Pumpkin Pie Porter",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32453/141031/",
-    "style":"Pumpkin Beer",
-    "style_url":"https://www.beeradvocate.com/beer/styles/72/",
-    "brewer":"Cherry Street Brewing Cooperative",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32453/"
-    },
-    {
-    "beer":"Athena",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34456/118862/",
-    "style":"Berliner Weisse",
-    "style_url":"https://www.beeradvocate.com/beer/styles/87/",
-    "brewer":"Creature Comforts",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34456/"
-    },
-    {
-    "beer":"Atalanta",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/122582/",
-    "style":"Belgian Saison",
-    "style_url":"https://www.beeradvocate.com/beer/styles/129/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Secret Apollo",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32382/320493/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Jekyll Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32382/"
-    },
-    {
-    "beer":"Lord Grey",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/337052/",
-    "style":"American Wild Ale",
-    "style_url":"https://www.beeradvocate.com/beer/styles/171/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Quasimodo",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/120455/",
-    "style":"Belgian Quadrupel (Quad)",
-    "style_url":"https://www.beeradvocate.com/beer/styles/142/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Wild Azalea",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/40145/184388/",
-    "style":"Belgian Saison",
-    "style_url":"https://www.beeradvocate.com/beer/styles/129/",
-    "brewer":"The Southern Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/40145/"
-    },
-    {
-    "beer":"The Ferryman",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/34960/200639/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Orpheus Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/34960/"
-    },
-    {
-    "beer":"Maps And Legends",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/28606/217091/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Burnt Hickory Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/28606/"
-    },
-    {
-    "beer":"Double Basement",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/46938/278203/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"Scofflaw Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/46938/"
-    },
-    {
-    "beer":"Ales From The Wood: Richland Reserve",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/2372/201009/",
-    "style":"English Sweet / Milk Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/82/",
-    "brewer":"Terrapin Beer Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/2372/"
-    },
-    {
-    "beer":"Single Origin Coffee Stout Ethiopian Hambela",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/2372/210198/",
-    "style":"American Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/158/",
-    "brewer":"Terrapin Beer Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/2372/"
-    },
-    {
-    "beer":"Terrapin Substance Abuse",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/2372/41883/",
-    "style":"American Imperial Stout",
-    "style_url":"https://www.beeradvocate.com/beer/styles/157/",
-    "brewer":"Terrapin Beer Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/2372/"
-    },
-    {
-    "beer":"A Night In Brussels IPA",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/32375/211434/",
-    "style":"Belgian IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/174/",
-    "brewer":"Three Taverns Craft Brewery",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/32375/"
-    },
-    {
-    "beer":"Beyond the Clouds",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/26516/323442/",
-    "style":"American IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/116/",
-    "brewer":"Monday Night Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/26516/"
-    },
-    {
-    "beer":"Hop Hash",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/273/133623/",
-    "style":"American Imperial IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/140/",
-    "brewer":"SweetWater Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/273/"
-    },
-    {
-    "beer":"Teufel Hunden",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/35985/138188/",
-    "style":"German Märzen / Oktoberfest",
-    "style_url":"https://www.beeradvocate.com/beer/styles/29/",
-    "brewer":"Service Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/35985/"
-    },
-    {
-    "beer":"The Unseasonal Lager",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/45080/232310/",
-    "style":"American Lager",
-    "style_url":"https://www.beeradvocate.com/beer/styles/155/",
-    "brewer":"Arches Brewing",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/45080/"
-    },
-    {
-    "beer":"Mosaic Single Hop Hazy IPA",
-    "beer_url":"https://www.beeradvocate.com/beer/profile/273/364373/",
-    "style":"New England IPA",
-    "style_url":"https://www.beeradvocate.com/beer/styles/189/",
-    "brewer":"SweetWater Brewing Company",
-    "brewer_url":"https://www.beeradvocate.com/beer/profile/273/"
-    }
+    "beers": [
+        {
+            "beer": "Mexican Siberius Maximus",
+            "style": "Russian Imperial Stout",
+            "brewer": "The Wrecking Bar Brewpub",
+            "score": "4.61"
+        },
+        {
+            "beer": "Existence",
+            "style": "American Imperial Stout",
+            "brewer": "Creature Comforts",
+            "score": "4.57"
+        },
+        {
+            "beer": "Duende",
+            "style": "American Imperial IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.48"
+        },
+        {
+            "beer": "Tropicália",
+            "style": "New England IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.38"
+        },
+        {
+            "beer": "Cosmik Debris",
+            "style": "American Imperial IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.37"
+        },
+        {
+            "beer": "Burial Truce",
+            "style": "Russian Imperial Stout",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.62"
+        },
+        {
+            "beer": "Emergence",
+            "style": "American Wild Ale",
+            "brewer": "Creature Comforts",
+            "score": "4.37"
+        },
+        {
+            "beer": "Helm's Deep - German Chocolate",
+            "style": "American Imperial Stout",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.51"
+        },
+        {
+            "beer": "Athena Paradiso - Cranberry, Raspberry, Tart Cherry",
+            "style": "Berliner Weisse",
+            "brewer": "Creature Comforts",
+            "score": "4.34"
+        },
+        {
+            "beer": "Southerly Love",
+            "style": "American Wild Ale",
+            "brewer": "Creature Comforts",
+            "score": "4.33"
+        },
+        {
+            "beer": "W-n-B Coffee Oatmeal Imperial Stout",
+            "style": "American Imperial Stout",
+            "brewer": "Terrapin Beer Company",
+            "score": "4.29"
+        },
+        {
+            "beer": "Charred Walls Of The Damned",
+            "style": "Belgian Quadrupel (Quad)",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.36"
+        },
+        {
+            "beer": "Athena Paradiso - Passion Fruit And Guava",
+            "style": "Berliner Weisse",
+            "brewer": "Creature Comforts",
+            "score": "4.33"
+        },
+        {
+            "beer": "Barrel Aged Kolb's Farm",
+            "style": "American Imperial Stout",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.43"
+        },
+        {
+            "beer": "Crescendo",
+            "style": "New England IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.41"
+        },
+        {
+            "beer": "The Didjits Blood Orange IPA",
+            "style": "New England IPA",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.29"
+        },
+        {
+            "beer": "Height Of Civilization",
+            "style": "British Barleywine",
+            "brewer": "Wild Heaven Beer",
+            "score": "4.32"
+        },
+        {
+            "beer": "We're Desperate: An Ale For X",
+            "style": "American IPA",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.58"
+        },
+        {
+            "beer": "The 12th Labor-Bourbon Barrel Aged",
+            "style": "American Imperial Stout",
+            "brewer": "Orpheus Brewing",
+            "score": "4.37"
+        },
+        {
+            "beer": "Killdozer 12 Point Buck",
+            "style": "American Barleywine",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.30"
+        },
+        {
+            "beer": "Abandon All Hope",
+            "style": "American Imperial Stout",
+            "brewer": "Orpheus Brewing",
+            "score": "4.43"
+        },
+        {
+            "beer": "Barrel Aged Coffee Absentium",
+            "style": "American Imperial Stout",
+            "brewer": "Scofflaw Brewing Company",
+            "score": "4.40"
+        },
+        {
+            "beer": "Automatic",
+            "style": "American Pale Ale (APA)",
+            "brewer": "Creature Comforts",
+            "score": "4.27"
+        },
+        {
+            "beer": "Modern Comforts",
+            "style": "American Imperial IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.39"
+        },
+        {
+            "beer": "Cucumber & Lime Tritonia",
+            "style": "Leipzig Gose",
+            "brewer": "Creature Comforts",
+            "score": "4.27"
+        },
+        {
+            "beer": "Sweetwater Dank Tank Fresh Sticky Nugs",
+            "style": "American Imperial IPA",
+            "brewer": "SweetWater Brewing Company",
+            "score": "4.25"
+        },
+        {
+            "beer": "Koko Buni",
+            "style": "American Porter",
+            "brewer": "Creature Comforts",
+            "score": "4.24"
+        },
+        {
+            "beer": "Helm's Deep",
+            "style": "American Imperial Stout",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.47"
+        },
+        {
+            "beer": "Noggin Knocker",
+            "style": "American Imperial Stout",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.29"
+        },
+        {
+            "beer": "Hop Noggin",
+            "style": "American Imperial IPA",
+            "brewer": "The Wrecking Bar Brewpub",
+            "score": "4.46"
+        },
+        {
+            "beer": "Bourbon Barrel Wake-n-Bake",
+            "style": "American Imperial Stout",
+            "brewer": "Terrapin Beer Company",
+            "score": "4.36"
+        },
+        {
+            "beer": "Barrel Aged Coconut Absentium",
+            "style": "American Imperial Stout",
+            "brewer": "Scofflaw Brewing Company",
+            "score": "4.44"
+        },
+        {
+            "beer": "Big Shanty Graham Cracker Stout",
+            "style": "American Imperial Stout",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.21"
+        },
+        {
+            "beer": "Morning Smack",
+            "style": "English Sweet / Milk Stout",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.33"
+        },
+        {
+            "beer": "Even The Furies Wept",
+            "style": "Belgian Saison",
+            "brewer": "Orpheus Brewing",
+            "score": "4.35"
+        },
+        {
+            "beer": "Hopgasm",
+            "style": "American IPA",
+            "brewer": "Five Seasons Prado",
+            "score": "4.24"
+        },
+        {
+            "beer": "Awaken, My Love",
+            "style": "American Imperial Stout",
+            "brewer": "Creature Comforts",
+            "score": "4.33"
+        },
+        {
+            "beer": "Lake Of Fire",
+            "style": "Rye Beer",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.36"
+        },
+        {
+            "beer": "Athena Paradiso",
+            "style": "Berliner Weisse",
+            "brewer": "Creature Comforts",
+            "score": "4.21"
+        },
+        {
+            "beer": "Space Lettuce",
+            "style": "American Imperial IPA",
+            "brewer": "Monday Night Brewing",
+            "score": "4.37"
+        },
+        {
+            "beer": "Moon Station Bitter AKA MSB",
+            "style": "American IPA",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.26"
+        },
+        {
+            "beer": "Coconut Porter",
+            "style": "American Porter",
+            "brewer": "Cherry Street Brewing Cooperative",
+            "score": "4.18"
+        },
+        {
+            "beer": "Hooligan",
+            "style": "American IPA",
+            "brewer": "Scofflaw Brewing Company",
+            "score": "4.18"
+        },
+        {
+            "beer": "Double Koko Buni",
+            "style": "American Imperial Porter",
+            "brewer": "Creature Comforts",
+            "score": "4.27"
+        },
+        {
+            "beer": "Basement IPA",
+            "style": "American IPA",
+            "brewer": "Scofflaw Brewing Company",
+            "score": "4.14"
+        },
+        {
+            "beer": "Transmigration Of Souls",
+            "style": "American Imperial IPA",
+            "brewer": "Orpheus Brewing",
+            "score": "4.13"
+        },
+        {
+            "beer": "Old Wooden Head",
+            "style": "American Imperial IPA",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.15"
+        },
+        {
+            "beer": "Life.Death.Life.Truth",
+            "style": "American IPA",
+            "brewer": "Orpheus Brewing",
+            "score": "4.14"
+        },
+        {
+            "beer": "Tears Of My Enemies - Scotch Barrel-Aged",
+            "style": "American Imperial Stout",
+            "brewer": "Monday Night Brewing",
+            "score": "4.22"
+        },
+        {
+            "beer": "Terrapin Moo-HooChiato",
+            "style": "English Sweet / Milk Stout",
+            "brewer": "Terrapin Beer Company",
+            "score": "4.12"
+        },
+        {
+            "beer": "Get Comfortable",
+            "style": "American IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.22"
+        },
+        {
+            "beer": "Jemmy Dean Breakfast Stout",
+            "style": "American Stout",
+            "brewer": "The Wrecking Bar Brewpub",
+            "score": "4.21"
+        },
+        {
+            "beer": "POG Basement",
+            "style": "American IPA",
+            "brewer": "Scofflaw Brewing Company",
+            "score": "4.13"
+        },
+        {
+            "beer": "Siberius Maximus",
+            "style": "Russian Imperial Stout",
+            "brewer": "The Wrecking Bar Brewpub",
+            "score": "4.25"
+        },
+        {
+            "beer": "Double Jeopardy",
+            "style": "American Imperial IPA",
+            "brewer": "Scofflaw Brewing Company",
+            "score": "4.12"
+        },
+        {
+            "beer": "Die Kreuzen Imperial Pumpkin Porter",
+            "style": "American Imperial Porter",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.14"
+        },
+        {
+            "beer": "Loopulus",
+            "style": "American Imperial IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.27"
+        },
+        {
+            "beer": "Fighting Bishop",
+            "style": "Belgian Tripel",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.23"
+        },
+        {
+            "beer": "Eschaton",
+            "style": "Belgian Quadrupel (Quad)",
+            "brewer": "Wild Heaven Beer",
+            "score": "4.10"
+        },
+        {
+            "beer": "Southern Juicy Juice",
+            "style": "American IPA",
+            "brewer": "Jekyll Brewing",
+            "score": "4.18"
+        },
+        {
+            "beer": "Inceptus",
+            "style": "American Wild Ale",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.13"
+        },
+        {
+            "beer": "Juice Willis",
+            "style": "American IPA",
+            "brewer": "The Wrecking Bar Brewpub",
+            "score": "4.24"
+        },
+        {
+            "beer": "Athena Dry Hopped With Galaxy",
+            "style": "Berliner Weisse",
+            "brewer": "Creature Comforts",
+            "score": "4.21"
+        },
+        {
+            "beer": "Dank Tank: Fresh Sticky Nugs (2017)",
+            "style": "American Imperial IPA",
+            "brewer": "SweetWater Brewing Company",
+            "score": "4.16"
+        },
+        {
+            "beer": "Warpig",
+            "style": "American Imperial IPA",
+            "brewer": "The Southern Brewing Company",
+            "score": "4.25"
+        },
+        {
+            "beer": "Departed Spirit",
+            "style": "Russian Imperial Stout",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.12"
+        },
+        {
+            "beer": "Truth.Body.Soul.",
+            "style": "American Imperial IPA",
+            "brewer": "Orpheus Brewing",
+            "score": "4.12"
+        },
+        {
+            "beer": "Spanish Bombs Habenero IPA",
+            "style": "American IPA",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.25"
+        },
+        {
+            "beer": "Misty Valley Reclaimed Rye",
+            "style": "American Amber / Red Ale",
+            "brewer": "Creature Comforts",
+            "score": "4.18"
+        },
+        {
+            "beer": "Alpha Abstraction, Vol. 3",
+            "style": "New England IPA",
+            "brewer": "Wild Leap Brew Co",
+            "score": "4.21"
+        },
+        {
+            "beer": "Alpha Abstraction, Vol. 2",
+            "style": "New England IPA",
+            "brewer": "Wild Leap Brew Co",
+            "score": "4.20"
+        },
+        {
+            "beer": "Transmission",
+            "style": "Belgian Saison",
+            "brewer": "Creature Comforts",
+            "score": "4.14"
+        },
+        {
+            "beer": "Moke",
+            "style": "American Pale Ale (APA)",
+            "brewer": "Creature Comforts",
+            "score": "4.23"
+        },
+        {
+            "beer": "Declaration",
+            "style": "American Imperial Stout",
+            "brewer": "Reformation Brewery",
+            "score": "4.13"
+        },
+        {
+            "beer": "Imperial Trop Haze",
+            "style": "American Imperial IPA",
+            "brewer": "Creature Comforts",
+            "score": "4.24"
+        },
+        {
+            "beer": "Bourbon Barrel Aged Imperial Stout",
+            "style": "American Imperial Stout",
+            "brewer": "SweetWater Brewing Company",
+            "score": "4.07"
+        },
+        {
+            "beer": "Oh Fantastic Then!",
+            "style": "American Pale Ale (APA)",
+            "brewer": "Creature Comforts",
+            "score": "4.22"
+        },
+        {
+            "beer": "Steppin' Razor",
+            "style": "American Imperial IPA",
+            "brewer": "Cherry Street Brewing Cooperative",
+            "score": "4.11"
+        },
+        {
+            "beer": "Cannon Dragger",
+            "style": "American IPA",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.06"
+        },
+        {
+            "beer": "The 12th Labor",
+            "style": "American Imperial Stout",
+            "brewer": "Orpheus Brewing",
+            "score": "4.14"
+        },
+        {
+            "beer": "Feest Noel",
+            "style": "Belgian Quadrupel (Quad)",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.08"
+        },
+        {
+            "beer": "Friend Of The Farmer Pumpkin Pie Porter",
+            "style": "Pumpkin Beer",
+            "brewer": "Cherry Street Brewing Cooperative",
+            "score": "4.22"
+        },
+        {
+            "beer": "Athena",
+            "style": "Berliner Weisse",
+            "brewer": "Creature Comforts",
+            "score": "4.05"
+        },
+        {
+            "beer": "Atalanta",
+            "style": "Belgian Saison",
+            "brewer": "Orpheus Brewing",
+            "score": "4.05"
+        },
+        {
+            "beer": "Secret Apollo",
+            "style": "American IPA",
+            "brewer": "Jekyll Brewing",
+            "score": "4.16"
+        },
+        {
+            "beer": "Lord Grey",
+            "style": "American Wild Ale",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.13"
+        },
+        {
+            "beer": "Quasimodo",
+            "style": "Belgian Quadrupel (Quad)",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.06"
+        },
+        {
+            "beer": "Wild Azalea",
+            "style": "Belgian Saison",
+            "brewer": "The Southern Brewing Company",
+            "score": "4.14"
+        },
+        {
+            "beer": "The Ferryman",
+            "style": "American Imperial Stout",
+            "brewer": "Orpheus Brewing",
+            "score": "4.06"
+        },
+        {
+            "beer": "Maps And Legends",
+            "style": "American Imperial Stout",
+            "brewer": "Burnt Hickory Brewery",
+            "score": "4.17"
+        },
+        {
+            "beer": "Double Basement",
+            "style": "American Imperial IPA",
+            "brewer": "Scofflaw Brewing Company",
+            "score": "4.12"
+        },
+        {
+            "beer": "Ales From The Wood: Richland Reserve",
+            "style": "English Sweet / Milk Stout",
+            "brewer": "Terrapin Beer Company",
+            "score": "4.06"
+        },
+        {
+            "beer": "Single Origin Coffee Stout Ethiopian Hambela",
+            "style": "American Stout",
+            "brewer": "Terrapin Beer Company",
+            "score": "4.04"
+        },
+        {
+            "beer": "Terrapin Substance Abuse",
+            "style": "American Imperial Stout",
+            "brewer": "Terrapin Beer Company",
+            "score": "4.07"
+
+        },
+        {
+            "beer": "A Night In Brussels IPA",
+            "style": "Belgian IPA",
+            "brewer": "Three Taverns Craft Brewery",
+            "score": "4.14"
+        },
+        {
+            "beer": "Beyond the Clouds",
+            "style": "American IPA",
+            "brewer": "Monday Night Brewing",
+            "score": "4.17"
+        },
+        {
+            "beer": "Hop Hash",
+            "style": "American Imperial IPA",
+            "brewer": "SweetWater Brewing Company",
+            "score": "4.03"
+        },
+        {
+            "beer": "Teufel Hunden",
+            "style": "German Märzen / Oktoberfest",
+            "brewer": "Service Brewing Company",
+            "score": "4.13"
+        },
+        {
+            "beer": "The Reaper",
+            "style": "Belgian Quadrupel(Quad)",
+            "brewer": "Arches Brewing",
+            "score": "4.10"
+        },
+        {
+            "beer": "Mosaic Single Hop Hazy IPA",
+            "style": "New England IPA",
+            "brewer": "SweetWater Brewing Company",
+            "score": "4.04"
+        }
     ]
-    }
+}
     
