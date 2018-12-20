@@ -2,15 +2,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 var beerScheme = new Schema({
-    beerName: {
+    beer: {
         type: String,
         trim: false
     },
-    breweryName: {
+    brewer: {
         type: String,
         trim: false
     },
-    beerStyle: {
+    style: {
         type: String,
         trim: false
     },
@@ -21,7 +21,7 @@ var beerScheme = new Schema({
     imgFilePath: {
         type: String
     },
-    adminRating: {
+    score: {
         type: Number
     },
     userRating: {
