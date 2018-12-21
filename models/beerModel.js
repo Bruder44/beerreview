@@ -29,6 +29,9 @@ var beerScheme = new Schema({
     },
     numberOfVotes: {
         type: Number
+    },
+    availableIn: {
+        type: Array
     }
 })
 
