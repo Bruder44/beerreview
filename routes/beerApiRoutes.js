@@ -5,7 +5,10 @@ const BeerController = require('../controller/beerController');
 router.route('/')
     .get(BeerController.findAll)
     .post(BeerController.newBeer);
-
+// Find a specific beer and add a note to that specific beer
+router.route('/:beer')
+    .get(BeerController.findBeerById)
+    .post(BeerController.addNotes);
 // Find By Category
 router.route('/:style')
     .get(BeerController.findByStyle);

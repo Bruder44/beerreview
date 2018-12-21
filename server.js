@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const beerRoutes = require('./routes/index');
+const beerRoutes = require('./routes');
 require('dotenv').load();
 
 // port variable (local or production)
