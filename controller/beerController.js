@@ -32,6 +32,16 @@ module.exports = {
             .catch(err => res.status(422).json(err))
     },
 
+// finds data for a specific beer
+    findBeerById: (req, res) => {
+        console.log(`retrieving data for ${req.body.id}`);
+        db.Beer
+            .find({ _id: req.body.id})
+            .sort({ name: -1 })
+            .then(dbModel => res.json(dbModel))
+            .catch(err => res.status(422).json(err))
+    },
+
 // create new beer with pairing notes and info when route hit
     newBeer: (req, res) => {
         console.log("adding beer to database..");
