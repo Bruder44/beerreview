@@ -4,15 +4,18 @@ const Schema = mongoose.Schema;
 var beerScheme = new Schema({
     beer: {
         type: String,
-        trim: false
+        trim: false,
+        required: true
     },
     brewer: {
         type: String,
-        trim: false
+        trim: false,
+        required: true
     },
     style: {
         type: String,
-        trim: false
+        trim: false,
+        required: true
     },
     pairingNotes: {
         type: Array,
@@ -32,6 +35,9 @@ var beerScheme = new Schema({
     },
     availableIn: {
         type: Array
+    },
+    ABV: {
+        type: Number
     }
 })
 
