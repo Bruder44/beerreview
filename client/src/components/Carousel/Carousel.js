@@ -1,4 +1,5 @@
 import React from "react";
+import {Component} from 'react';
 
 class Carousel extends Component  {
     state = {}
@@ -29,4 +30,4 @@ class Carousel extends Component  {
     }
 }
 
-export default Carousel
+export default Carousel;
