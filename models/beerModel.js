@@ -36,7 +36,7 @@ var beerScheme = new Schema({
     availableIn: {
         type: Array
     },
-    ABV: {
+    abv: {
         type: Number
     }
 })
