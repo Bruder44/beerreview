@@ -63,6 +63,13 @@ module.exports = {
     },
 
 // update public score when route hit (contains logic for finding score out of 5)
+    addVote: (req, res) => {
+        console.log(`adding your ${req.body.rating} rating to the total score`);
+        db.Beer
+            .findOneAndUpdate({ _id: req.body.id },
+                {}
+            )
+    }
     
 
 }
