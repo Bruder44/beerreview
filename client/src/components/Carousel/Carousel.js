@@ -1,5 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
 import { Component } from 'react';
+=======
+import {Component} from 'react';
+>>>>>>> 6d3ca0323fcaa5c4326d27573b2237d505b7e666
 
 class Carousel extends Component  {
     state = {}
