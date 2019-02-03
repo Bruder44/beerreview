@@ -21,11 +21,24 @@ class Header extends Component {
                 <h1 className="Head">Beer Review</h1>
 
                 <div className="nav">
-                    <button type="button" className= "search btn btn-primary">Search</button>
+                    <button type="button" className="search btn btn-primary">Search</button>
                     <input type="text" className="search-control" onChange={this.handleType} />
+                    <div class="dropdown">
+                        <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Search By
+                        </button>
+                        <div className="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button className="dropdown-item" type="button" href="#">Beer</button>
+                            <button className="dropdown-item" type="button" href="#">Brewery</button>
+                            <button className="dropdown-item" type="button" href="#">Style</button>
+                            <button className="dropdown-item" type="button" href="#">Pairings</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         );
+
     }
 }
 
