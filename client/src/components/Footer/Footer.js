@@ -11,7 +11,7 @@ class FooterPage extends React.Component {
             <Row className="my-4">
               <Col md="4" lg="4">
                 <h5 className="text-uppercase mb-4 font-weight-bold">BeerReview</h5>
-                <p>BeerReview is a cutting edge web application for pairing the best experiences and items with the ideal beers, get yourself paired up with a good beer thanks to BeerReview!. </p>
+                <p>BeerReview is a cutting edge web application for pairing the best experiences and items with the ideal beers, get yourself paired up with a good beer thanks to BeerReview!</p>
               </Col>
               <hr className="clearfix w-100 d-md-none"/>
               <Col md="2" lg="2" className="ml-auto">
@@ -27,7 +27,7 @@ class FooterPage extends React.Component {
               <hr className="clearfix w-100 d-md-none"/>
               <Col md="5" lg="3">
                 <h5 className="text-uppercase mb-4 font-weight-bold">Address</h5>
-                <p><i className="fa fa-home mr-3"></i> Your Mom's Favourite Bar Atlanta, GA 30021, US</p>
+                <p><i className="fa fa-home mr-3"></i> Your Mom's Favourite Bar Atlanta, GA 30021</p>
                 <p><i className="fa fa-envelope mr-3"></i> beerreview1@gmail.com</p>
                 <p><i className="fa fa-phone mr-3"></i> + 01 404 625 8305</p>
                 <p><i className="fa fa-print mr-3"></i> + 01 404 345 5220</p>
