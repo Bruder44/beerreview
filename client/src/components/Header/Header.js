@@ -21,7 +21,7 @@ class Header extends Component {
                 <h1 className="Head">Beer Review</h1>
 
                 <div className="nav">
-                    <h4>Search</h4>
+                    <button type="button" className= "search btn btn-primary">Search</button>
                     <input type="text" className="search-control" onChange={this.handleType} />
                 </div>
             </div>

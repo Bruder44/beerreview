@@ -1,3 +1,33 @@
+/*Header & Search Customization  */
+.Head {
+    color: red;
+    background: black;
+    display: inline-block;
+    margin: 0 auto;
+    height: 4rem;
+    /* width: 100%; */
+
+}
+#header {
+    text-align: center;
+    color: red;
+    background: black;
+    /* display: inline; */
+    width: 100%;
+    /* float: right; */
+    font-family: 'Righteous', cursive;
+    font: bold;
+    }
+.nav {
+    float: right;
+    height: 2.5rem;
+    margin: .75rem;
+}
+/* .search {
+    background: blue;
+} */
+
+
 /* Carousel Customization */
 .carouselSlide {
     max-width: 40vw;
