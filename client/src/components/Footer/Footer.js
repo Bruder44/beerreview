@@ -28,7 +28,7 @@ class FooterPage extends React.Component {
               <Col md="5" lg="3">
                 <h5 className="text-uppercase mb-4 font-weight-bold">Address</h5>
                 <p><i className="fa fa-home mr-3"></i> Your Mom's Favourite Bar Atlanta, GA 30021, US</p>
-                <p><i className="fa fa-envelope mr-3"></i> beerreview@gmail.com</p>
+                <p><i className="fa fa-envelope mr-3"></i> beerreview1@gmail.com</p>
                 <p><i className="fa fa-phone mr-3"></i> + 01 404 625 8305</p>
                 <p><i className="fa fa-print mr-3"></i> + 01 404 345 5220</p>
                 <p><i className="fa fa-print mr-3"></i> + 01 404 449 7898</p>
