@@ -11,7 +11,8 @@ class FooterPage extends React.Component {
             <Row className="my-4">
               <Col md="4" lg="4">
                 <h5 className="text-uppercase mb-4 font-weight-bold">BeerReview</h5>
-                <p>BeerReview is a cutting edge web application for pairing the best experiences and items with the ideal beers, get yourself paired up with a good beer thanks to BeerReview!</p>
+                <p>BeerReview is a cutting edge web application for pairing the best experiences and items with the ideal beer!</p>
+                <p>Get yourself paired up with a good beer thanks to BeerReview!</p>
               </Col>
               <hr className="clearfix w-100 d-md-none"/>
               <Col md="2" lg="2" className="ml-auto">
@@ -21,7 +22,7 @@ class FooterPage extends React.Component {
                   <p><a href="#!">Add Pairing Notes</a></p>
                   <p><a href="#!">About Us at Beer Review</a></p>
                   <p><a href="#!">Beer Awards</a></p>
-                  <p><a href= "#!">Blog</a></p>
+                  <p><a href="#!">Blog</a></p>
                 </ul>
               </Col>
               <hr className="clearfix w-100 d-md-none"/>
