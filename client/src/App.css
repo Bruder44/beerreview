@@ -24,6 +24,10 @@
     margin: .75rem;
 }
 
+.btn, .dropdown-menu {
+    margin: 0;
+    height: 2.5rem;
+}
 
 /* Carousel Customization */
 .carouselSlide {
