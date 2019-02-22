@@ -71,6 +71,8 @@ module.exports = {
                     $push: {userRating: (( (userRating * (numberOfVotes -1 )) + req.body.rating) / numberOfVotes)} 
                 }
             )
+            .then(dbModel => res.json(dbModel))
+            .catch(err => res.status(422).json(err))
     },
     
 //  POST for register
@@ -102,7 +104,9 @@ module.exports = {
                   req.session.userId = user._id;
                   return res.redirect('/profile');
                 }
-              });
+              })
+              .then(dbModel => res.json(dbModel))
+              .catch(err => res.status(422).json(err));
               
             } else {
               var err = new Error('All fields required.');
