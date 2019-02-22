@@ -67,9 +67,70 @@ module.exports = {
         console.log(`adding your ${req.body.rating} rating to the total score`);
         db.Beer
             .findOneAndUpdate({ _id: req.body.id },
-                {}
+                { $inc: {numberOfVotes: 1},
+                    $push: {userRating: (( (userRating * (numberOfVotes -1 )) + req.body.rating) / numberOfVotes)} 
+                }
             )
-    }
+    },
     
+//  POST for register
+    signUp: (req, res, next) => {
+        if (req.body.email &&
+            req.body.name &&
+            req.body.password &&
+            req.body.confirmPassword) {
+        
+              // confirm that user typed same password twice
+              if (req.body.password !== req.body.confirmPassword) {
+                var err = new Error('Passwords do not match.');
+                err.status = 400;
+                return next(err);
+              }
+        
+              // create object with form input
+              var userData = {
+                email: req.body.email,
+                name: req.body.name,
+                password: req.body.password
+              };
+        
+              // use schema's `create` method to insert document into Mongo
+              db.User.create(userData, function (error, user) {
+                if (error) {
+                  return next(error);
+                } else {
+                  req.session.userId = user._id;
+                  return res.redirect('/profile');
+                }
+              });
+              
+            } else {
+              var err = new Error('All fields required.');
+              err.status = 400;
+              return next(err);
+            }
+    },
+
+//  POST for login
+    logIn: (req, res) => {
+        console.log("logging in...");
+        if (req.body.email && req.body.password) {
+            db.User.authenticate(req.body.email, req.body.password, function(error, user){
+              if (error || !user) {
+                var err = new Error('You fucked up.');
+                err.status = 401;
+                return next(err);
+              } else {
+                req.session.userId = user._id;
+                return res.redirect('/profile');
+              }
+            });
+          } else {
+            var err = new Error('Fillout the form you fucking dummy');
+            err.status = 401;
+            return next(err);
+          }
+    },
+
 
 }
