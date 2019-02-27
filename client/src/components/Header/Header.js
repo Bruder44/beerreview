@@ -23,7 +23,7 @@ class Header extends Component {
                 <div className="nav">
                     <button type="button" className="search btn btn-primary">Search</button>
                     <input type="text" className="search-control" onChange={this.handleType} />
-                    <div class="dropdown">
+                    <div className="dropdown">
                         <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Search By
                         </button>

@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt');
+
 var UserSchema = new mongoose.Schema({
     email: {
       type: String,
@@ -17,6 +18,31 @@ var UserSchema = new mongoose.Schema({
       required: true
     }
 });
+
+
+
+UserSchema.statics.authenticate = function(email, password, cb) {
+  User.findOne({ email: email})
+    .exec(function(error, user) {
+      if (error) {
+        return (error);
+      } else if ( !user ) {
+        var err = new Error('User not found');
+        error.status = 401;
+        return cb(err);
+      }
+      bcrypt.compare(password, user.password, function(error, result) {
+        if (result === true) {
+          return cb(null, user);
+        } else {
+          return cb();
+        }
+      }
+    )
+  }
+)};
+
+
 // hash password before saving to database
 UserSchema.pre('save', function(next) {
   var user = this;
@@ -28,5 +54,7 @@ UserSchema.pre('save', function(next) {
     next();
   })
 });
+
 var User = mongoose.model('User', UserSchema);
+
 module.exports = User;
