@@ -1,6 +1,6 @@
 const path = require('path');
 const router = require('express').Router();
-const beerRoutes = require('./beerApiRoutes');
+const beerRoutes = require('./api');
 
 // passing /api into routes and connecting to routes module
 router.use('/api', beerRoutes);
@@ -8,8 +8,9 @@ router.use('/api', beerRoutes);
 // If no API routes are hit, send the React app
 router.use( (req, res) => {
     res.sendFile(path.join(__dirname, "../client/build/index.html"));
-})
+});
 
+// router.use("/beerApiRoutes", beerRoutes);
 
 // get route to retrieve all beers from database
 

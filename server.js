@@ -13,17 +13,18 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // passing in routes to express from routes module
-app.use(beerRoutes);
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 Promise = mongoose.Promise;
 
+app.use(beerRoutes);
 
 
 
 // connect to database (local or production)
-mongoose.connect("mongodb://beerreviewers:beer1234@ds239648.mlab.com:39648/beerreview", {useNewUrlParser: true}, err => {
+// mongoose.connect("mongodb://beerreviewers:beer1234@ds239648.mlab.com:39648/beerreview", {useNewUrlParser: true}, err => {
+    mongoose.connect("mongodb://localhost:27017/beerreview", {useNewUrlParser: true}, err => {
     if (err) console.error(err);
     else console.log(`Database Connected!!!`);
 });
