@@ -8,7 +8,7 @@ var UserSchema = new mongoose.Schema({
       required: true,
       trim: true
     },
-    name: {
+    username: {
       type: String,
       required: true,
       trim: true
@@ -55,6 +55,6 @@ UserSchema.pre('save', function(next) {
   })
 });
 
-var User = mongoose.model('User', UserSchema);
+var users = mongoose.model('users', UserSchema);
 
-module.exports = User;
+module.exports = users;

@@ -53,7 +53,7 @@ module.exports = {
 
 // update beer with new pairing notes when route hit
     addNotes: (req, res) => {
-        console.log(`updating ${req.body.id} with new notes`);
+        console.log(`updating ${req.body.username} with new notes`);
         db.Beer
             .findOneAndUpdate({ _id: req.body.id },
                 { $push: {pairingNotes: req.body.pairingNotes} }
@@ -77,8 +77,9 @@ module.exports = {
     
 //  POST for register
     signUp: (req, res, next) => {
+        console.log('request body:');
         if (req.body.email &&
-            req.body.name &&
+            req.body.username &&
             req.body.password &&
             req.body.confirmPassword) {
         
@@ -92,18 +93,18 @@ module.exports = {
               // create object with form input
               var userData = {
                 email: req.body.email,
-                name: req.body.name,
+                username: req.body.name,
                 password: req.body.password
               };
         
               // use schema's `create` method to insert document into Mongo
               db.User.create(userData, function (error, user) {
-                if (error) {
-                  return next(error);
-                } else {
-                  req.session.userId = user._id;
-                  return res.redirect('/profile');
-                }
+                // if (error) {
+                //   return next(error);
+                // } else {
+                //   req.session.userId = user._id;
+                //   return res.redirect('/');
+                // }
               })
               .then(dbModel => res.json(dbModel))
               .catch(err => res.status(422).json(err));
