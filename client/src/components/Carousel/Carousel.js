@@ -1,8 +1,27 @@
 import React from "react";
 import { Component } from 'react';
+import API from '../../utils/API';
 
 class Carousel extends Component {
-    state = {}
+    state = {
+        beers: [],
+    };
+    componentDidMount() {
+        this.loadBeers();
+      }
+      loadBeers = () => {
+        console.log(`I'm on Smoko`);
+        API.getBeers()
+          .then(res => {
+            console.log('so leave me alone');
+            this.setState({
+              beers: res.data,
+            });
+            console.log(this.state.beers);
+          }
+          )
+          .catch(err => console.log(err));
+      }
     render() {
         return (
             <div id="carouselExampleControls" className="carouselSlide" data-ride="carousel">
@@ -11,6 +30,7 @@ class Carousel extends Component {
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="sr-only">Previous</span>
                     </a>
+
                     <div className="carousel-item active">
                         <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/08/15/12/smileyfaceemoji1508a.jpg?w968" className="d-block w-100" alt="..." />
                         <div className="card">

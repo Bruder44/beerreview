@@ -8,7 +8,7 @@ module.exports = {
         db.Beer
             .find({})
             .sort({ style: -1 })
-            .then(dbModel => res.json(dbModel))
+            .then(console.log("does this work?")).then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err));
     },
 
