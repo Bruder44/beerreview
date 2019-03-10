@@ -1,809 +1,802 @@
-
-{
-    "beers": [
-        {
-            "beer": "Mexican Siberius Maximus",
-            "style": "Russian Imperial Stout",
-            "brewer": "The Wrecking Bar Brewpub",
-            "score": "4.61",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mexicansiberius.jpeg",
-            "abv": "11.00%"
-        },
-        {
-            "beer": "Existence",
-            "style": "American Imperial Stout",
-            "brewer": "Creature Comforts",
-            "score": "4.57",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/existence.jpg",
-            "abv": "11.80%"
-        },
-        {
-            "beer": "Duende",
-            "style": "American Imperial IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.48",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/duende.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Tropicália",
-            "style": "New England IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.38",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/tropicalia.jpg",
-            "abv": "6.60%"
-        },
-        {
-            "beer": "Cosmik Debris",
-            "style": "American Imperial IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.37",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/cosmik+debris.jpg",
-            "abv": "8.30%"
-        },
-        {
-            "beer": "Burial Truce",
-            "style": "Russian Imperial Stout",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.62",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/burial+truce.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Emergence",
-            "style": "American Wild Ale",
-            "brewer": "Creature Comforts",
-            "score": "4.37",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/emergence.jpg",
-            "abv": "6.00%"
-        },
-        {
-            "beer": "Helm's Deep - German Chocolate",
-            "style": "American Imperial Stout",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.51",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/helmsdeep2.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Athena Paradiso - Cranberry, Raspberry, Tart Cherry",
-            "style": "Berliner Weisse",
-            "brewer": "Creature Comforts",
-            "score": "4.34",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/paradisoCRC.jpg",
-            "abv": "4.50%"
-        },
-        {
-            "beer": "Southerly Love",
-            "style": "American Wild Ale",
-            "brewer": "Creature Comforts",
-            "score": "4.33",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/southerlylove.jpg",
-            "abv": "6.80%"
-        },
-        {
-            "beer": "W-n-B Coffee Oatmeal Imperial Stout",
-            "style": "American Imperial Stout",
-            "brewer": "Terrapin Beer Company",
-            "score": "4.29",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wnbcoffee.jpg",
-            "abv": "9.40%"
-        },
-        {
-            "beer": "Charred Walls Of The Damned",
-            "style": "Belgian Quadrupel (Quad)",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.36",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/charredwalls.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Athena Paradiso - Passion Fruit And Guava",
-            "style": "Berliner Weisse",
-            "brewer": "Creature Comforts",
-            "score": "4.33",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/paradisoPFG.jpg",
-            "abv": "4.50%"
-        },
-        {
-            "beer": "Barrel Aged Kolb's Farm",
-            "style": "American Imperial Stout",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.43",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/kolbsfarm.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Crescendo",
-            "style": "New England IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.41",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/crescendo.jpg",
-            "abv": "7.20%"
-        },
-        {
-            "beer": "The Didjits Blood Orange IPA",
-            "style": "New England IPA",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.29",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/didijits+bloIPA.jpg",
-            "abv": "7.50%"
-        },
-        {
-            "beer": "Height Of Civilization",
-            "style": "British Barleywine",
-            "brewer": "Wild Heaven Beer",
-            "score": "4.32",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/heightofcivilization.jpg",
-            "abv": "12.00%"
-        },
-        {
-            "beer": "We're Desperate: An Ale For X",
-            "style": "American IPA",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.58",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/desperatepale.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "The 12th Labor-Bourbon Barrel Aged",
-            "style": "American Imperial Stout",
-            "brewer": "Orpheus Brewing",
-            "score": "4.37",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/the+12th+labor.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Killdozer 12 Point Buck",
-            "style": "American Barleywine",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.30",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/killdozer12point.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Abandon All Hope",
-            "style": "American Imperial Stout",
-            "brewer": "Orpheus Brewing",
-            "score": "4.43",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/abandonallhope.jpg",
-            "abv": "14.00%"
-        },
-        {
-            "beer": "Barrel Aged Coffee Absentium",
-            "style": "American Imperial Stout",
-            "brewer": "Scofflaw Brewing Company",
-            "score": "4.40",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bacoffeeabsentium.jpg",
-            "abv": "13.90%"
-        },
-        {
-            "beer": "Automatic",
-            "style": "American Pale Ale (APA)",
-            "brewer": "Creature Comforts",
-            "score": "4.27",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/automatic.jpg",
-            "abv": "5.20%"
-        },
-        {
-            "beer": "Modern Comforts",
-            "style": "American Imperial IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.39",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/moderntimes.jpeg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Cucumber & Lime Tritonia",
-            "style": "Leipzig Gose",
-            "brewer": "Creature Comforts",
-            "score": "4.27",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/tritoniacucumber.jpg",
-            "abv": "4.50%"
-        },
-        {
-            "beer": "Sweetwater Dank Tank Fresh Sticky Nugs",
-            "style": "American Imperial IPA",
-            "brewer": "SweetWater Brewing Company",
-            "score": "4.25",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/stickynugs.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Koko Buni",
-            "style": "American Porter",
-            "brewer": "Creature Comforts",
-            "score": "4.24",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/kokobuni.jpg",
-            "abv": "6.50%"
-        },
-        {
-            "beer": "Helm's Deep",
-            "style": "American Imperial Stout",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.47",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/helmsdeep1.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Noggin Knocker",
-            "style": "American Imperial Stout",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.29",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/noggin+knocker.jpg",
-            "abv": "13.00%"
-        },
-        {
-            "beer": "Hop Noggin",
-            "style": "American Imperial IPA",
-            "brewer": "The Wrecking Bar Brewpub",
-            "score": "4.46",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/hopnoggin.jpg",
-            "abv": "9.30%"
-        },
-        {
-            "beer": "Bourbon Barrel Wake-n-Bake",
-            "style": "American Imperial Stout",
-            "brewer": "Terrapin Beer Company",
-            "score": "4.36",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wakenbake.jpg",
-            "abv": "9.40%"
-        },
-        {
-            "beer": "Barrel Aged Coconut Absentium",
-            "style": "American Imperial Stout",
-            "brewer": "Scofflaw Brewing Company",
-            "score": "4.44",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bacoconutAbsentium.jpg",
-            "abv": "13.90%"
-        },
-        {
-            "beer": "Big Shanty Graham Cracker Stout",
-            "style": "American Imperial Stout",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.21",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bigshantygrahamcracker.jpg",
-            "abv": "9.00%"
-        },
-        {
-            "beer": "Morning Smack",
-            "style": "English Sweet / Milk Stout",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.33",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/morningsmack.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Even The Furies Wept",
-            "style": "Belgian Saison",
-            "brewer": "Orpheus Brewing",
-            "score": "4.35",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/eventhefuries.jpg",
-            "abv": "7.00%"
-        },
-        {
-            "beer": "Hopgasm",
-            "style": "American IPA",
-            "brewer": "Five Seasons Prado",
-            "score": "4.24",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/hopgasm.jpg",
-            "abv": "6.50%"
-        },
-        {
-            "beer": "Awaken, My Love",
-            "style": "American Imperial Stout",
-            "brewer": "Creature Comforts",
-            "score": "4.33",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/awakenmylove.jpg",
-            "abv": "10.40%"
-        },
-        {
-            "beer": "Lake Of Fire",
-            "style": "Rye Beer",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.36",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/lakeofire.jpg",
-            "abv": "12.50%"
-        },
-        {
-            "beer": "Athena Paradiso",
-            "style": "Berliner Weisse",
-            "brewer": "Creature Comforts",
-            "score": "4.21",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/athenaparadiso.jpg",
-            "abv": "4.50%"
-        },
-        {
-            "beer": "Space Lettuce",
-            "style": "American Imperial IPA",
-            "brewer": "Monday Night Brewing",
-            "score": "4.37",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/spacelettuce.jpg",
-            "abv": "8.10%"
-        },
-        {
-            "beer": "Moon Station Bitter AKA MSB",
-            "style": "American IPA",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.26",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/moonstation.jpg",
-            "abv": "4.70%"
-        },
-        {
-            "beer": "Coconut Porter",
-            "style": "American Porter",
-            "brewer": "Cherry Street Brewing Cooperative",
-            "score": "4.18",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/coconutporter.jpg",
-            "abv": "6.00%"
-        },
-        {
-            "beer": "Hooligan",
-            "style": "American IPA",
-            "brewer": "Scofflaw Brewing Company",
-            "score": "4.18",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/holligan.jpg",
-            "abv": "7.00%"
-        },
-        {
-            "beer": "Double Koko Buni",
-            "style": "American Imperial Porter",
-            "brewer": "Creature Comforts",
-            "score": "4.27",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/doublekokobuni.jpg",
-            "abv": "8.70%"
-        },
-        {
-            "beer": "Basement IPA",
-            "style": "American IPA",
-            "brewer": "Scofflaw Brewing Company",
-            "score": "4.14",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/basement+ipa.jpg",
-            "abv": "7.50%"
-        },
-        {
-            "beer": "Transmigration Of Souls",
-            "style": "American Imperial IPA",
-            "brewer": "Orpheus Brewing",
-            "score": "4.13",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/transmigrationofsouls.jpg",
-            "abv": "10.00%"
-        },
-        {
-            "beer": "Old Wooden Head",
-            "style": "American Imperial IPA",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.15",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/oldwoodenhead.jpg",
-            "abv": "10.00%"
-        },
-        {
-            "beer": "Life.Death.Life.Truth",
-            "style": "American IPA",
-            "brewer": "Orpheus Brewing",
-            "score": "4.14",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/lifeDLT.jpg",
-            "abv": "7.00%"
-        },
-        {
-            "beer": "Tears Of My Enemies - Scotch Barrel-Aged",
-            "style": "American Imperial Stout",
-            "brewer": "Monday Night Brewing",
-            "score": "4.22",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/tearsofmyenemies.jpg",
-            "abv": "9.30%"
-        },
-        {
-            "beer": "Terrapin Moo-HooChiato",
-            "style": "English Sweet / Milk Stout",
-            "brewer": "Terrapin Beer Company",
-            "score": "4.12",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/moo-hoo.jpg",
-            "abv": "6.10%"
-        },
-        {
-            "beer": "Get Comfortable",
-            "style": "American IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.22",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/getcomfortable.jpg",
-            "abv": "6.50%"
-        },
-        {
-            "beer": "Jemmy Dean Breakfast Stout",
-            "style": "American Stout",
-            "brewer": "The Wrecking Bar Brewpub",
-            "score": "4.21",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/jeremydeanbreakfaststout.jpg",
-            "abv": "5.80%"
-        },
-        {
-            "beer": "POG Basement",
-            "style": "American IPA",
-            "brewer": "Scofflaw Brewing Company",
-            "score": "4.13",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/pogbasement.jpg",
-            "abv": "7.50%"
-        },
-        {
-            "beer": "Siberius Maximus",
-            "style": "Russian Imperial Stout",
-            "brewer": "The Wrecking Bar Brewpub",
-            "score": "4.25",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mexicansiberius.jpeg",
-            "abv": "11.00%"
-        },
-        {
-            "beer": "Double Jeopardy",
-            "style": "American Imperial IPA",
-            "brewer": "Scofflaw Brewing Company",
-            "score": "4.12",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/doublejeopardy.jpg",
-            "abv": "10.50%"
-        },
-        {
-            "beer": "Die Kreuzen Imperial Pumpkin Porter",
-            "style": "American Imperial Porter",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.14",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/diekreuzen.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Loopulus",
-            "style": "American Imperial IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.27",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/loopulus.jpg",
-            "abv": "8.40%"
-        },
-        {
-            "beer": "Fighting Bishop",
-            "style": "Belgian Tripel",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.23",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/thefightingbishop.jpg",
-            "abv": "8.50%"
-        },
-        {
-            "beer": "Eschaton",
-            "style": "Belgian Quadrupel (Quad)",
-            "brewer": "Wild Heaven Beer",
-            "score": "4.10",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/eschaton.jpg",
-            "abv": "10.50%"
-        },
-        {
-            "beer": "Southern Juicy Juice",
-            "style": "American IPA",
-            "brewer": "Jekyll Brewing",
-            "score": "4.18",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/southernjuicyjuice.jpg",
-            "abv": "6.00%"
-        },
-        {
-            "beer": "Inceptus",
-            "style": "American Wild Ale",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.13",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/inceptus.jpg",
-            "abv": "6.00%"
-        },
-        {
-            "beer": "Juice Willis",
-            "style": "American IPA",
-            "brewer": "The Wrecking Bar Brewpub",
-            "score": "4.24",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wreckingbar.jpg",
-            "abv": "6.50%"
-        },
-        {
-            "beer": "Athena Dry Hopped With Galaxy",
-            "style": "Berliner Weisse",
-            "brewer": "Creature Comforts",
-            "score": "4.21",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/galaxyathena.jpg",
-            "abv": "4.50%"
-        },
-        {
-            "beer": "Dank Tank: Fresh Sticky Nugs (2017)",
-            "style": "American Imperial IPA",
-            "brewer": "SweetWater Brewing Company",
-            "score": "4.16",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/freshstickynugs(2017).jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Warpig",
-            "style": "American Imperial IPA",
-            "brewer": "The Southern Brewing Company",
-            "score": "4.25",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/warpig.jpg",
-            "abv": "8.50%"
-        },
-        {
-            "beer": "Departed Spirit",
-            "style": "Russian Imperial Stout",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.12",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/departedspirit.png",
-            "abv": "10.00%"
-        },
-        {
-            "beer": "Truth.Body.Soul.",
-            "style": "American Imperial IPA",
-            "brewer": "Orpheus Brewing",
-            "score": "4.12",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/truthBS.jpg",
-            "abv": "8.00%"
-
-        },
-        {
-            "beer": "Spanish Bombs Habenero IPA",
-            "style": "American IPA",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.25",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/spanishbombs.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Misty Valley Reclaimed Rye",
-            "style": "American Amber / Red Ale",
-            "brewer": "Creature Comforts",
-            "score": "4.18",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mistyvalleyreclaimedrye.jpg",
-            "abv": "5.50%"
-        },
-        {
-            "beer": "Alpha Abstraction, Vol. 3",
-            "style": "New England IPA",
-            "brewer": "Wild Leap Brew Co",
-            "score": "4.21",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/alpha+abstraction.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Alpha Abstraction, Vol. 2",
-            "style": "New England IPA",
-            "brewer": "Wild Leap Brew Co",
-            "score": "4.20",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/alphaabstractionv2.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Transmission",
-            "style": "Belgian Saison",
-            "brewer": "Creature Comforts",
-            "score": "4.14",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/transmission.jpg",
-            "abv": "5.60%"
-        },
-        {
-            "beer": "Moke",
-            "style": "American Pale Ale (APA)",
-            "brewer": "Creature Comforts",
-            "score": "4.23",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mokeCC.jpg",
-            "abv": "5.90%"
-        },
-        {
-            "beer": "Declaration",
-            "style": "American Imperial Stout",
-            "brewer": "Reformation Brewery",
-            "score": "4.13",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/declaration.jpg",
-            "abv": "9.70%"
-        },
-        {
-            "beer": "Imperial Trop Haze",
-            "style": "American Imperial IPA",
-            "brewer": "Creature Comforts",
-            "score": "4.24",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/imperialtrophaze.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Bourbon Barrel Aged Imperial Stout",
-            "style": "American Imperial Stout",
-            "brewer": "SweetWater Brewing Company",
-            "score": "4.07",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bbagedimperialstout.jpg",
-            "abv": "11.20%"
-        },
-        {
-            "beer": "Oh Fantastic Then!",
-            "style": "American Pale Ale (APA)",
-            "brewer": "Creature Comforts",
-            "score": "4.22",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/ohfantasticthen.jpg",
-            "abv": "5.60%"
-        },
-        {
-            "beer": "Steppin' Razor",
-            "style": "American Imperial IPA",
-            "brewer": "Cherry Street Brewing Cooperative",
-            "score": "4.11",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/steppinrazor.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "Cannon Dragger",
-            "style": "American IPA",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.06",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/cannondragger.jpg",
-            "abv": "8.00%"
-        },
-        {
-            "beer": "The 12th Labor",
-            "style": "American Imperial Stout",
-            "brewer": "Orpheus Brewing",
-            "score": "4.14",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/the+12th+labor.jpg",
-            "abv": "13.00%"
-
-        },
-        {
-            "beer": "Feest Noel",
-            "style": "Belgian Quadrupel (Quad)",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.08",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/feestnoel.jpg",
-            "abv": "10.00%"
-        },
-        {
-            "beer": "Friend Of The Farmer Pumpkin Pie Porter",
-            "style": "Pumpkin Beer",
-            "brewer": "Cherry Street Brewing Cooperative",
-            "score": "4.22",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/friendofthefarmer.jpg",
-            "abv": "7.00%"
-        },
-        {
-            "beer": "Athena",
-            "style": "Berliner Weisse",
-            "brewer": "Creature Comforts",
-            "score": "4.05",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/athena.jpg",
-            "abv": "4.50%"
-        },
-        {
-            "beer": "Atalanta",
-            "style": "Belgian Saison",
-            "brewer": "Orpheus Brewing",
-            "score": "4.05",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/atalanta.jpg",
-            "abv": "5.25%"
-        },
-        {
-            "beer": "Secret Apollo",
-            "style": "American IPA",
-            "brewer": "Jekyll Brewing",
-            "score": "4.16",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/secretapollo.jpg",
-            "abv": "6.00%"
-        },
-        {
-            "beer": "Lord Grey",
-            "style": "American Wild Ale",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.13",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/lordgrey.jpg",
-            "abv": "5.00%"
-        },
-        {
-            "beer": "Quasimodo",
-            "style": "Belgian Quadrupel (Quad)",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.06",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/quasimodo.jpg",
-            "abv": "10.00%"
-        },
-        {
-            "beer": "Wild Azalea",
-            "style": "Belgian Saison",
-            "brewer": "The Southern Brewing Company",
-            "score": "4.14",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wildazalea.jpg",
-            "abv": "6.50%"
-        },
-        {
-            "beer": "The Ferryman",
-            "style": "American Imperial Stout",
-            "brewer": "Orpheus Brewing",
-            "score": "4.06",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/theferryman.jpg",
-            "abv": "10.50%"
-        },
-        {
-            "beer": "Maps And Legends",
-            "style": "American Imperial Stout",
-            "brewer": "Burnt Hickory Brewery",
-            "score": "4.17",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mapsNlegends.jpg",
-            "abv": "10.00%"
-        },
-        {
-            "beer": "Double Basement",
-            "style": "American Imperial IPA",
-            "brewer": "Scofflaw Brewing Company",
-            "score": "4.12",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/doublebasement.jpg",
-            "abv": "10.50%"
-        },
-        {
-            "beer": "Ales From The Wood: Richland Reserve",
-            "style": "English Sweet / Milk Stout",
-            "brewer": "Terrapin Beer Company",
-            "score": "4.06",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/richlandreserve.jpg",
-            "abv": "11.00%"
-        },
-        {
-            "beer": "Single Origin Coffee Stout Ethiopian Hambela",
-            "style": "American Stout",
-            "brewer": "Terrapin Beer Company",
-            "score": "4.04",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/singleorigincoffeestout.jpg",
-            "abv": "5.70%"
-        },
-        {
-            "beer": "Terrapin Substance Abuse",
-            "style": "American Imperial Stout",
-            "brewer": "Terrapin Beer Company",
-            "score": "4.07",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/terrapin.jpg",
-            "abv": "N/A"
-
-        },
-        {
-            "beer": "A Night In Brussels IPA",
-            "style": "Belgian IPA",
-            "brewer": "Three Taverns Craft Brewery",
-            "score": "4.14",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/anightinbrussels.jpg",
-            "abv": "7.50%"
-        },
-        {
-            "beer": "Beyond the Clouds",
-            "style": "American IPA",
-            "brewer": "Monday Night Brewing",
-            "score": "4.17",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/beyondtheclouds.jpg",
-            "abv": "6.50%"
-        },
-        {
-            "beer": "Hop Hash",
-            "style": "American Imperial IPA",
-            "brewer": "SweetWater Brewing Company",
-            "score": "4.03",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/hophash.jpg",
-            "abv": "7.80%"
-        },
-        {
-            "beer": "Teufel Hunden",
-            "style": "German Märzen / Oktoberfest",
-            "brewer": "Service Brewing Company",
-            "score": "4.13",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/teufel.jpg",
-            "abv": "5.40%"
-        },
-        {
-            "beer": "The Reaper",
-            "style": "Belgian Quadrupel(Quad)",
-            "brewer": "Arches Brewing",
-            "score": "4.10",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/thereaper.jpg",
-            "abv":"9.60%"
-        },
-        {
-            "beer": "Mosaic Single Hop Hazy IPA",
-            "style": "New England IPA",
-            "brewer": "SweetWater Brewing Company",
-            "score": "4.04",
-            "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mosaic.jpg",
-            "abv": "6.20%"
-        }
-    ]
-}
-    
+[
+    {
+        "beer": "Mexican Siberius Maximus",
+        "style": "Russian Imperial Stout",
+        "brewer": "The Wrecking Bar Brewpub",
+        "score": "4.61",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mexicansiberius.jpeg",
+        "abv": "11.00%"
+    },
+    {
+        "beer": "Existence",
+        "style": "American Imperial Stout",
+        "brewer": "Creature Comforts",
+        "score": "4.57",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/existence.jpg",
+        "abv": "11.80%"
+    },
+    {
+        "beer": "Duende",
+        "style": "American Imperial IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.48",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/duende.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Tropicália",
+        "style": "New England IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.38",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/tropicalia.jpg",
+        "abv": "6.60%"
+    },
+    {
+        "beer": "Cosmik Debris",
+        "style": "American Imperial IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.37",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/cosmik+debris.jpg",
+        "abv": "8.30%"
+    },
+    {
+        "beer": "Burial Truce",
+        "style": "Russian Imperial Stout",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.62",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/burial+truce.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Emergence",
+        "style": "American Wild Ale",
+        "brewer": "Creature Comforts",
+        "score": "4.37",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/emergence.jpg",
+        "abv": "6.00%"
+    },
+    {
+        "beer": "Helm's Deep - German Chocolate",
+        "style": "American Imperial Stout",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.51",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/helmsdeep2.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Athena Paradiso - Cranberry, Raspberry, Tart Cherry",
+        "style": "Berliner Weisse",
+        "brewer": "Creature Comforts",
+        "score": "4.34",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/paradisoCRC.jpg",
+        "abv": "4.50%"
+    },
+    {
+        "beer": "Southerly Love",
+        "style": "American Wild Ale",
+        "brewer": "Creature Comforts",
+        "score": "4.33",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/southerlylove.jpg",
+        "abv": "6.80%"
+    },
+    {
+        "beer": "W-n-B Coffee Oatmeal Imperial Stout",
+        "style": "American Imperial Stout",
+        "brewer": "Terrapin Beer Company",
+        "score": "4.29",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wnbcoffee.jpg",
+        "abv": "9.40%"
+    },
+    {
+        "beer": "Charred Walls Of The Damned",
+        "style": "Belgian Quadrupel (Quad)",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.36",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/charredwalls.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Athena Paradiso - Passion Fruit And Guava",
+        "style": "Berliner Weisse",
+        "brewer": "Creature Comforts",
+        "score": "4.33",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/paradisoPFG.jpg",
+        "abv": "4.50%"
+    },
+    {
+        "beer": "Barrel Aged Kolb's Farm",
+        "style": "American Imperial Stout",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.43",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/kolbsfarm.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Crescendo",
+        "style": "New England IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.41",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/crescendo.jpg",
+        "abv": "7.20%"
+    },
+    {
+        "beer": "The Didjits Blood Orange IPA",
+        "style": "New England IPA",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.29",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/didijits+bloIPA.jpg",
+        "abv": "7.50%"
+    },
+    {
+        "beer": "Height Of Civilization",
+        "style": "British Barleywine",
+        "brewer": "Wild Heaven Beer",
+        "score": "4.32",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/heightofcivilization.jpg",
+        "abv": "12.00%"
+    },
+    {
+        "beer": "We're Desperate: An Ale For X",
+        "style": "American IPA",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.58",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/desperatepale.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "The 12th Labor-Bourbon Barrel Aged",
+        "style": "American Imperial Stout",
+        "brewer": "Orpheus Brewing",
+        "score": "4.37",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/the+12th+labor.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Killdozer 12 Point Buck",
+        "style": "American Barleywine",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.30",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/killdozer12point.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Abandon All Hope",
+        "style": "American Imperial Stout",
+        "brewer": "Orpheus Brewing",
+        "score": "4.43",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/abandonallhope.jpg",
+        "abv": "14.00%"
+    },
+    {
+        "beer": "Barrel Aged Coffee Absentium",
+        "style": "American Imperial Stout",
+        "brewer": "Scofflaw Brewing Company",
+        "score": "4.40",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bacoffeeabsentium.jpg",
+        "abv": "13.90%"
+    },
+    {
+        "beer": "Automatic",
+        "style": "American Pale Ale (APA)",
+        "brewer": "Creature Comforts",
+        "score": "4.27",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/automatic.jpg",
+        "abv": "5.20%"
+    },
+    {
+        "beer": "Modern Comforts",
+        "style": "American Imperial IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.39",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/moderntimes.jpeg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Cucumber & Lime Tritonia",
+        "style": "Leipzig Gose",
+        "brewer": "Creature Comforts",
+        "score": "4.27",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/tritoniacucumber.jpg",
+        "abv": "4.50%"
+    },
+    {
+        "beer": "Sweetwater Dank Tank Fresh Sticky Nugs",
+        "style": "American Imperial IPA",
+        "brewer": "SweetWater Brewing Company",
+        "score": "4.25",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/stickynugs.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Koko Buni",
+        "style": "American Porter",
+        "brewer": "Creature Comforts",
+        "score": "4.24",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/kokobuni.jpg",
+        "abv": "6.50%"
+    },
+    {
+        "beer": "Helm's Deep",
+        "style": "American Imperial Stout",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.47",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/helmsdeep1.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Noggin Knocker",
+        "style": "American Imperial Stout",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.29",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/noggin+knocker.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Hop Noggin",
+        "style": "American Imperial IPA",
+        "brewer": "The Wrecking Bar Brewpub",
+        "score": "4.46",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/hopnoggin.jpg",
+        "abv": "9.30%"
+    },
+    {
+        "beer": "Bourbon Barrel Wake-n-Bake",
+        "style": "American Imperial Stout",
+        "brewer": "Terrapin Beer Company",
+        "score": "4.36",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wakenbake.jpg",
+        "abv": "9.40%"
+    },
+    {
+        "beer": "Barrel Aged Coconut Absentium",
+        "style": "American Imperial Stout",
+        "brewer": "Scofflaw Brewing Company",
+        "score": "4.44",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bacoconutAbsentium.jpg",
+        "abv": "13.90%"
+    },
+    {
+        "beer": "Big Shanty Graham Cracker Stout",
+        "style": "American Imperial Stout",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.21",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bigshantygrahamcracker.jpg",
+        "abv": "9.00%"
+    },
+    {
+        "beer": "Morning Smack",
+        "style": "English Sweet / Milk Stout",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.33",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/morningsmack.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Even The Furies Wept",
+        "style": "Belgian Saison",
+        "brewer": "Orpheus Brewing",
+        "score": "4.35",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/eventhefuries.jpg",
+        "abv": "7.00%"
+    },
+    {
+        "beer": "Hopgasm",
+        "style": "American IPA",
+        "brewer": "Five Seasons Prado",
+        "score": "4.24",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/hopgasm.jpg",
+        "abv": "6.50%"
+    },
+    {
+        "beer": "Awaken, My Love",
+        "style": "American Imperial Stout",
+        "brewer": "Creature Comforts",
+        "score": "4.33",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/awakenmylove.jpg",
+        "abv": "10.40%"
+    },
+    {
+        "beer": "Lake Of Fire",
+        "style": "Rye Beer",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.36",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/lakeofire.jpg",
+        "abv": "12.50%"
+    },
+    {
+        "beer": "Athena Paradiso",
+        "style": "Berliner Weisse",
+        "brewer": "Creature Comforts",
+        "score": "4.21",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/athenaparadiso.jpg",
+        "abv": "4.50%"
+    },
+    {
+        "beer": "Space Lettuce",
+        "style": "American Imperial IPA",
+        "brewer": "Monday Night Brewing",
+        "score": "4.37",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/spacelettuce.jpg",
+        "abv": "8.10%"
+    },
+    {
+        "beer": "Moon Station Bitter AKA MSB",
+        "style": "American IPA",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.26",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/moonstation.jpg",
+        "abv": "4.70%"
+    },
+    {
+        "beer": "Coconut Porter",
+        "style": "American Porter",
+        "brewer": "Cherry Street Brewing Cooperative",
+        "score": "4.18",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/coconutporter.jpg",
+        "abv": "6.00%"
+    },
+    {
+        "beer": "Hooligan",
+        "style": "American IPA",
+        "brewer": "Scofflaw Brewing Company",
+        "score": "4.18",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/holligan.jpg",
+        "abv": "7.00%"
+    },
+    {
+        "beer": "Double Koko Buni",
+        "style": "American Imperial Porter",
+        "brewer": "Creature Comforts",
+        "score": "4.27",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/doublekokobuni.jpg",
+        "abv": "8.70%"
+    },
+    {
+        "beer": "Basement IPA",
+        "style": "American IPA",
+        "brewer": "Scofflaw Brewing Company",
+        "score": "4.14",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/basement+ipa.jpg",
+        "abv": "7.50%"
+    },
+    {
+        "beer": "Transmigration Of Souls",
+        "style": "American Imperial IPA",
+        "brewer": "Orpheus Brewing",
+        "score": "4.13",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/transmigrationofsouls.jpg",
+        "abv": "10.00%"
+    },
+    {
+        "beer": "Old Wooden Head",
+        "style": "American Imperial IPA",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.15",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/oldwoodenhead.jpg",
+        "abv": "10.00%"
+    },
+    {
+        "beer": "Life.Death.Life.Truth",
+        "style": "American IPA",
+        "brewer": "Orpheus Brewing",
+        "score": "4.14",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/lifeDLT.jpg",
+        "abv": "7.00%"
+    },
+    {
+        "beer": "Tears Of My Enemies - Scotch Barrel-Aged",
+        "style": "American Imperial Stout",
+        "brewer": "Monday Night Brewing",
+        "score": "4.22",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/tearsofmyenemies.jpg",
+        "abv": "9.30%"
+    },
+    {
+        "beer": "Terrapin Moo-HooChiato",
+        "style": "English Sweet / Milk Stout",
+        "brewer": "Terrapin Beer Company",
+        "score": "4.12",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/moo-hoo.jpg",
+        "abv": "6.10%"
+    },
+    {
+        "beer": "Get Comfortable",
+        "style": "American IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.22",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/getcomfortable.jpg",
+        "abv": "6.50%"
+    },
+    {
+        "beer": "Jemmy Dean Breakfast Stout",
+        "style": "American Stout",
+        "brewer": "The Wrecking Bar Brewpub",
+        "score": "4.21",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/jeremydeanbreakfaststout.jpg",
+        "abv": "5.80%"
+    },
+    {
+        "beer": "POG Basement",
+        "style": "American IPA",
+        "brewer": "Scofflaw Brewing Company",
+        "score": "4.13",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/pogbasement.jpg",
+        "abv": "7.50%"
+    },
+    {
+        "beer": "Siberius Maximus",
+        "style": "Russian Imperial Stout",
+        "brewer": "The Wrecking Bar Brewpub",
+        "score": "4.25",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mexicansiberius.jpeg",
+        "abv": "11.00%"
+    },
+    {
+        "beer": "Double Jeopardy",
+        "style": "American Imperial IPA",
+        "brewer": "Scofflaw Brewing Company",
+        "score": "4.12",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/doublejeopardy.jpg",
+        "abv": "10.50%"
+    },
+    {
+        "beer": "Die Kreuzen Imperial Pumpkin Porter",
+        "style": "American Imperial Porter",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.14",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/diekreuzen.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Loopulus",
+        "style": "American Imperial IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.27",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/loopulus.jpg",
+        "abv": "8.40%"
+    },
+    {
+        "beer": "Fighting Bishop",
+        "style": "Belgian Tripel",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.23",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/thefightingbishop.jpg",
+        "abv": "8.50%"
+    },
+    {
+        "beer": "Eschaton",
+        "style": "Belgian Quadrupel (Quad)",
+        "brewer": "Wild Heaven Beer",
+        "score": "4.10",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/eschaton.jpg",
+        "abv": "10.50%"
+    },
+    {
+        "beer": "Southern Juicy Juice",
+        "style": "American IPA",
+        "brewer": "Jekyll Brewing",
+        "score": "4.18",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/southernjuicyjuice.jpg",
+        "abv": "6.00%"
+    },
+    {
+        "beer": "Inceptus",
+        "style": "American Wild Ale",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.13",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/inceptus.jpg",
+        "abv": "6.00%"
+    },
+    {
+        "beer": "Juice Willis",
+        "style": "American IPA",
+        "brewer": "The Wrecking Bar Brewpub",
+        "score": "4.24",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wreckingbar.jpg",
+        "abv": "6.50%"
+    },
+    {
+        "beer": "Athena Dry Hopped With Galaxy",
+        "style": "Berliner Weisse",
+        "brewer": "Creature Comforts",
+        "score": "4.21",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/galaxyathena.jpg",
+        "abv": "4.50%"
+    },
+    {
+        "beer": "Dank Tank: Fresh Sticky Nugs (2017)",
+        "style": "American Imperial IPA",
+        "brewer": "SweetWater Brewing Company",
+        "score": "4.16",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/freshstickynugs(2017).jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Warpig",
+        "style": "American Imperial IPA",
+        "brewer": "The Southern Brewing Company",
+        "score": "4.25",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/warpig.jpg",
+        "abv": "8.50%"
+    },
+    {
+        "beer": "Departed Spirit",
+        "style": "Russian Imperial Stout",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.12",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/departedspirit.png",
+        "abv": "10.00%"
+    },
+    {
+        "beer": "Truth.Body.Soul.",
+        "style": "American Imperial IPA",
+        "brewer": "Orpheus Brewing",
+        "score": "4.12",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/truthBS.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Spanish Bombs Habenero IPA",
+        "style": "American IPA",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.25",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/spanishbombs.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Misty Valley Reclaimed Rye",
+        "style": "American Amber / Red Ale",
+        "brewer": "Creature Comforts",
+        "score": "4.18",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mistyvalleyreclaimedrye.jpg",
+        "abv": "5.50%"
+    },
+    {
+        "beer": "Alpha Abstraction, Vol. 3",
+        "style": "New England IPA",
+        "brewer": "Wild Leap Brew Co",
+        "score": "4.21",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/alpha+abstraction.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Alpha Abstraction, Vol. 2",
+        "style": "New England IPA",
+        "brewer": "Wild Leap Brew Co",
+        "score": "4.20",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/alphaabstractionv2.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Transmission",
+        "style": "Belgian Saison",
+        "brewer": "Creature Comforts",
+        "score": "4.14",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/transmission.jpg",
+        "abv": "5.60%"
+    },
+    {
+        "beer": "Moke",
+        "style": "American Pale Ale (APA)",
+        "brewer": "Creature Comforts",
+        "score": "4.23",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mokeCC.jpg",
+        "abv": "5.90%"
+    },
+    {
+        "beer": "Declaration",
+        "style": "American Imperial Stout",
+        "brewer": "Reformation Brewery",
+        "score": "4.13",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/declaration.jpg",
+        "abv": "9.70%"
+    },
+    {
+        "beer": "Imperial Trop Haze",
+        "style": "American Imperial IPA",
+        "brewer": "Creature Comforts",
+        "score": "4.24",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/imperialtrophaze.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Bourbon Barrel Aged Imperial Stout",
+        "style": "American Imperial Stout",
+        "brewer": "SweetWater Brewing Company",
+        "score": "4.07",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/bbagedimperialstout.jpg",
+        "abv": "11.20%"
+    },
+    {
+        "beer": "Oh Fantastic Then!",
+        "style": "American Pale Ale (APA)",
+        "brewer": "Creature Comforts",
+        "score": "4.22",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/ohfantasticthen.jpg",
+        "abv": "5.60%"
+    },
+    {
+        "beer": "Steppin' Razor",
+        "style": "American Imperial IPA",
+        "brewer": "Cherry Street Brewing Cooperative",
+        "score": "4.11",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/steppinrazor.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "Cannon Dragger",
+        "style": "American IPA",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.06",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/cannondragger.jpg",
+        "abv": "8.00%"
+    },
+    {
+        "beer": "The 12th Labor",
+        "style": "American Imperial Stout",
+        "brewer": "Orpheus Brewing",
+        "score": "4.14",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/the+12th+labor.jpg",
+        "abv": "13.00%"
+    },
+    {
+        "beer": "Feest Noel",
+        "style": "Belgian Quadrupel (Quad)",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.08",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/feestnoel.jpg",
+        "abv": "10.00%"
+    },
+    {
+        "beer": "Friend Of The Farmer Pumpkin Pie Porter",
+        "style": "Pumpkin Beer",
+        "brewer": "Cherry Street Brewing Cooperative",
+        "score": "4.22",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/friendofthefarmer.jpg",
+        "abv": "7.00%"
+    },
+    {
+        "beer": "Athena",
+        "style": "Berliner Weisse",
+        "brewer": "Creature Comforts",
+        "score": "4.05",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/athena.jpg",
+        "abv": "4.50%"
+    },
+    {
+        "beer": "Atalanta",
+        "style": "Belgian Saison",
+        "brewer": "Orpheus Brewing",
+        "score": "4.05",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/atalanta.jpg",
+        "abv": "5.25%"
+    },
+    {
+        "beer": "Secret Apollo",
+        "style": "American IPA",
+        "brewer": "Jekyll Brewing",
+        "score": "4.16",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/secretapollo.jpg",
+        "abv": "6.00%"
+    },
+    {
+        "beer": "Lord Grey",
+        "style": "American Wild Ale",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.13",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/lordgrey.jpg",
+        "abv": "5.00%"
+    },
+    {
+        "beer": "Quasimodo",
+        "style": "Belgian Quadrupel (Quad)",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.06",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/quasimodo.jpg",
+        "abv": "10.00%"
+    },
+    {
+        "beer": "Wild Azalea",
+        "style": "Belgian Saison",
+        "brewer": "The Southern Brewing Company",
+        "score": "4.14",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/wildazalea.jpg",
+        "abv": "6.50%"
+    },
+    {
+        "beer": "The Ferryman",
+        "style": "American Imperial Stout",
+        "brewer": "Orpheus Brewing",
+        "score": "4.06",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/theferryman.jpg",
+        "abv": "10.50%"
+    },
+    {
+        "beer": "Maps And Legends",
+        "style": "American Imperial Stout",
+        "brewer": "Burnt Hickory Brewery",
+        "score": "4.17",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mapsNlegends.jpg",
+        "abv": "10.00%"
+    },
+    {
+        "beer": "Double Basement",
+        "style": "American Imperial IPA",
+        "brewer": "Scofflaw Brewing Company",
+        "score": "4.12",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/doublebasement.jpg",
+        "abv": "10.50%"
+    },
+    {
+        "beer": "Ales From The Wood: Richland Reserve",
+        "style": "English Sweet / Milk Stout",
+        "brewer": "Terrapin Beer Company",
+        "score": "4.06",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/richlandreserve.jpg",
+        "abv": "11.00%"
+    },
+    {
+        "beer": "Single Origin Coffee Stout Ethiopian Hambela",
+        "style": "American Stout",
+        "brewer": "Terrapin Beer Company",
+        "score": "4.04",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/singleorigincoffeestout.jpg",
+        "abv": "5.70%"
+    },
+    {
+        "beer": "Terrapin Substance Abuse",
+        "style": "American Imperial Stout",
+        "brewer": "Terrapin Beer Company",
+        "score": "4.07",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/terrapin.jpg",
+        "abv": "N/A"
+    },
+    {
+        "beer": "A Night In Brussels IPA",
+        "style": "Belgian IPA",
+        "brewer": "Three Taverns Craft Brewery",
+        "score": "4.14",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/anightinbrussels.jpg",
+        "abv": "7.50%"
+    },
+    {
+        "beer": "Beyond the Clouds",
+        "style": "American IPA",
+        "brewer": "Monday Night Brewing",
+        "score": "4.17",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/beyondtheclouds.jpg",
+        "abv": "6.50%"
+    },
+    {
+        "beer": "Hop Hash",
+        "style": "American Imperial IPA",
+        "brewer": "SweetWater Brewing Company",
+        "score": "4.03",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/hophash.jpg",
+        "abv": "7.80%"
+    },
+    {
+        "beer": "Teufel Hunden",
+        "style": "German Märzen / Oktoberfest",
+        "brewer": "Service Brewing Company",
+        "score": "4.13",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/teufel.jpg",
+        "abv": "5.40%"
+    },
+    {
+        "beer": "The Reaper",
+        "style": "Belgian Quadrupel(Quad)",
+        "brewer": "Arches Brewing",
+        "score": "4.10",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/thereaper.jpg",
+        "abv": "9.60%"
+    },
+    {
+        "beer": "Mosaic Single Hop Hazy IPA",
+        "style": "New England IPA",
+        "brewer": "SweetWater Brewing Company",
+        "score": "4.04",
+        "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/mosaic.jpg",
+        "abv": "6.20%"
+    }
+]
