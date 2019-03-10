@@ -7,4 +7,9 @@ export default {
         return axios.post('/api/beerRoutes/register', data);
     },
 
+    getSome: function () {
+        console.log("fetching beers for carousel");
+        return axios.get('/api/beerRoutes/');
+    }
+
 };

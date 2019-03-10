@@ -1,8 +1,27 @@
 import React from "react";
 import { Component } from 'react';
+import API from '../../utils/API';
 
 class Carousel extends Component {
-    state = {}
+    state = {
+        beers: [],
+    };
+    componentDidMount() {
+        this.loadBeers();
+    }
+    loadBeers = () => {
+        console.log(`I'm on Smoko`);
+        API.getSome()
+            .then(res => {
+                console.log('so leave me alone');
+                console.log(res.data);
+                this.setState({
+                    beers: res.data,
+                });
+                console.log(this.state.beers);
+            })
+            .catch(err => console.log(err));
+    }
     render() {
         return (
             <div id="carouselExampleControls" className="carouselSlide" data-ride="carousel">
@@ -15,25 +34,27 @@ class Carousel extends Component {
                         <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/08/15/12/smileyfaceemoji1508a.jpg?w968" className="d-block w-100" alt="..." />
                         <div className="card">
                             <div className="card-body">
-                                <h5 className="card-title">Beer Name</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Brewery</h6>
+                                <h5 className="card-title">Beer1</h5>
+                                <h6 className="card-subtitle mb-2 text-muted">Brewer1</h6>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <a href="#" className="card-link">Card link</a>
                             </div>
                         </div>
                     </div>
-                    <div className="carousel-item">
-                        <img src="https://i.kym-cdn.com/entries/icons/original/000/019/068/lgJCmtjW_400x400.jpeg" className="d-block w-100" alt="..." />
-                        <div className="card">
-                            <div className="card-body">
-                                <h5 className="card-title">Beer Name</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">Brewery</h6>
-                                <p className="card-text">Morgan Freeman's holy beer.</p>
-                                <a href="#" className="card-link">Card link</a>
+                    {this.state.beers.map(beer =>                    
+                        <div className="carousel-item" key={beer._id}>
+                            <img src="https://i.kym-cdn.com/entries/icons/original/000/019/068/lgJCmtjW_400x400.jpeg" className="d-block w-100" alt="..." />
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">{beer.beer}</h5>
+                                    <h6 className="card-subtitle mb-2 text-muted">{beer.brewer}</h6>
+                                    <p className="card-text">Morgan Freeman's holy beer.</p>
+                                    <a href="#" className="card-link">Card link</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="carousel-item">
+                    )}
+                    {/* <div className="carousel-item">
                         <img src="https://i.ebayimg.com/images/g/k7EAAOSw9M5a5AyX/s-l300.jpg" className="d-block w-100" alt="..." />
                         <div className="card">
                             <div className="card-body">
@@ -43,13 +64,14 @@ class Carousel extends Component {
                                 <a href="#" className="card-link">Card link</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
                 </div>
             </div>
+            // )
         )
     }
 }

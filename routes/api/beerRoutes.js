@@ -3,7 +3,7 @@ const beerController = require('../../controller/beerController');
 
 // Find All and Create New Beer
 router.route('/')
-    .get(beerController.findAll)
+    .get(beerController.findSome)
     .post(beerController.newBeer);
 
 // Load SignUp page and capture form data

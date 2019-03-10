@@ -14,11 +14,13 @@ module.exports = {
 
     // find a handful of beers for carousel
     findSome: (req, res) => {
-        console.log("Loading them all");
+        console.log("Loading some beers for carousel");
         db.Beer
             .find({})
-            .sort({ style: -1 })
+            .limit(6)
+            .sort({ _id: -1 })
             .then(dbModel => res.json(dbModel))
+            // .then(console.log(res.body))
             .catch(err => res.status(422).json(err));
     },
 
