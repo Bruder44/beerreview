@@ -42,6 +42,6 @@ var beerScheme = new Schema({
 })
 
 
-const Scheme = mongoose.model('Scheme', beerScheme);
+const beers = mongoose.model('beers', beerScheme);
 
-module.exports = Scheme;
+module.exports = beers;
