@@ -12,6 +12,16 @@ module.exports = {
             .catch(err => res.status(422).json(err));
     },
 
+    // find a handful of beers for carousel
+    findSome: (req, res) => {
+        console.log("Loading them all");
+        db.Beer
+            .find({})
+            .sort({ style: -1 })
+            .then(dbModel => res.json(dbModel))
+            .catch(err => res.status(422).json(err));
+    },
+
 // retrieve beer by category when route hit
     findByStyle: (req, res) => {
         console.log(`Listing  all available ${req.body.style}s in your area.`);
@@ -98,14 +108,15 @@ module.exports = {
               };
         
               // use schema's `create` method to insert document into Mongo
-              db.User.create(userData, function (error, user) {
+            //   db.User.create(userData, function (error, user) {
                 // if (error) {
                 //   return next(error);
                 // } else {
                 //   req.session.userId = user._id;
                 //   return res.redirect('/');
                 // }
-              })
+            //   })
+            db.User.create(userData)
               .then(dbModel => res.json(dbModel))
               .catch(err => res.status(422).json(err));
               
