@@ -26,13 +26,18 @@ class SignUpForm extends Component {
         this.setState({ confirmPassword: value })
     }
 
-    createUser = () => {
+    createUser = (event) => {
+        event.preventDefault();
         API.createUser({ username: this.state.username,
                         email: this.state.email,
                         password: this.state.password,
                         confirmPassword: this.state.confirmPassword
-        }).then(res => {})
-        .catch(err => console.log(err));
+        }).then(res => {
+            console.log('making progress');
+            this.setState({
+            username: ""
+            })
+        }).catch(err => console.log(err));
     }
 
 
