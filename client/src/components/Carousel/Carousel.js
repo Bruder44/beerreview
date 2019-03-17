@@ -44,7 +44,7 @@ class Carousel extends Component {
                     </div>
                     {this.state.beers.map(beer =>                    
                         <div className="carousel-item" key={beer._id}>
-                            <img src="https://i.kym-cdn.com/entries/icons/original/000/019/068/lgJCmtjW_400x400.jpeg" className="d-block w-100" alt="..." />
+                            <img src= {beer.image} className="d-block w-100" alt="..." />
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">{beer.beer}</h5>
