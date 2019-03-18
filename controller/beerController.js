@@ -43,12 +43,13 @@ module.exports = {
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
     },
-
+ 
 // finds data for a specific beer
     findBeerById: (req, res) => {
-        console.log(`retrieving data for ${req.body.id}`);
+        // console.log(`retrieving data for ${JSON.stringify(req, null, 4)}`);
+        console.log(req.params);
         db.Beer
-            .find({ _id: req.body.id})
+            .find({ _id: req.params._id})
             .sort({ name: -1 })
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))

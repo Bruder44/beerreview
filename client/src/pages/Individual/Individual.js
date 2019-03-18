@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="app">
         <Header /> 
-        <BeerCard />
+        <BeerCard params={this.props.match.params}/>
         <Footer /> 
       </div>
     );

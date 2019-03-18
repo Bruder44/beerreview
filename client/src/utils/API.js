@@ -12,9 +12,9 @@ export default {
         return axios.get('/api/beerRoutes/');
     },
 
-    getOne: function () {
-        console.log("Getting data about your beer of choice");
-        return axios.get('/api/beerRoutes/:beer');
+    getOne: function (_id) {
+        console.log("Getting data about your beer of choice " + _id);
+        return axios.get('/api/beerRoutes/beer/'+_id);
     }
 
 };

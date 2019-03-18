@@ -17,7 +17,7 @@ router.route('/login')
     .post(beerController.logIn);
 
 // Find a specific beer and add a note to that specific beer
-router.route('/:beer')
+router.route('/beer/:_id')
     .get(beerController.findBeerById)
     .post(beerController.addNotes);
 
