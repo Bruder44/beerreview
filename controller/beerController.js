@@ -90,7 +90,7 @@ module.exports = {
     
 //  POST for register
     signUp: (req, res, next) => {
-        console.log('request body:');
+        console.log('request body:'+ req.body);
         if (req.body.email &&
             req.body.username &&
             req.body.password &&
@@ -106,7 +106,7 @@ module.exports = {
               // create object with form input
               var userData = {
                 email: req.body.email,
-                username: req.body.name,
+                username: req.body.username,
                 password: req.body.password
               };
         
@@ -120,6 +120,7 @@ module.exports = {
                 // }
             //   })
             db.User.create(userData)
+              .then(console.log(userData))
               .then(dbModel => res.json(dbModel))
               .catch(err => res.status(422).json(err));
               
