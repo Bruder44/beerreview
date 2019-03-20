@@ -83,8 +83,13 @@ img {
     padding: 15px;
 }
 
+.carousel_slide {
+    display: none;
+}
 
-
+.carousel_slide--active {
+    display: block
+}
 
 /* Footer styling */
 .page-footer {

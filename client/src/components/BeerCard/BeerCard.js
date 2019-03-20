@@ -35,13 +35,13 @@ class BeerCard extends Component {
                 <div className="beerCard">
                     <img src={this.state.beer.image} className="beerCard-img-top" alt="..." />
                     <div className="card-body">
-                        <h4>{this.state.beer.brewer}</h4>
-                        <h5 className="card-title">{this.state.beer.beer}</h5>
-                        <p className="card-text">{this.state.beer.description}</p>
+                        <h4>Brewery:{this.state.beer.brewer}</h4>
+                        <h5 className="card-title">Beer Name:{this.state.beer.beer}</h5>
+                        <p className="card-text">Beer Description:{this.state.beer.description}</p>
                     </div>
                     <ul className="list-group list-group-flush">
-                        <li className="list-group-item">{this.state.beer.score}</li>
-                        <li className="list-group-item">{this.state.beer.abv}</li>
+                        <li className="list-group-item">Beer Score:{this.state.beer.score}</li>
+                        <li className="list-group-item">Beer ABV:{this.state.beer.abv}</li>
                     </ul>
                 </div>
             </div>
