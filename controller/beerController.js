@@ -18,7 +18,7 @@ module.exports = {
         db.Beer
             .find({})
             .limit(6)
-            .sort({ _id: -1 })
+            .sort({ _id: 1 })
             .then(dbModel => res.json(dbModel))
             // .then(console.log(res.body))
             .catch(err => res.status(422).json(err));

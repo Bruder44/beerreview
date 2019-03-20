@@ -27,6 +27,11 @@ var beerScheme = new Schema({
     score: {
         type: Number
     },
+    description: {
+        type: String,
+        trim: false,
+        required: true
+    },
     userRating: {
         type: Number
     },

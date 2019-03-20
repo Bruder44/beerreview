@@ -50,7 +50,8 @@ class Carousel extends Component {
                                 <div className="card-body">
                                     <h5 className="card-title">{beer.beer}</h5>
                                     <h6 className="card-subtitle mb-2 text-muted">{beer.brewer}</h6>
-                                    <p className="card-text">Morgan Freeman's holy beer.</p>
+                                    <p className="card-text">{beer.style}</p>
+                                    <p className="card-text">{beer.description}</p>
                                     <Link to={`/beer/${beer._id}`}>
                                         {/* <a href="#" className="card-link">Card link</a> */}
                                         See More
