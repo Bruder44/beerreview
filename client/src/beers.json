@@ -25,7 +25,7 @@
     },
     {
         "beer": "Tropicália",
-        "style": "New England IPA",
+        "style": "Tropicália is a balanced, soft, and juicy IPA. A hop aroma of citrus and ripe passion fruit leads into a full, fruit-forward hop flavor that washes over the palate, and ends with a subtle bitterness.",
         "brewer": "Creature Comforts",
         "score": "4.38",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/tropicalia.jpg",
@@ -33,7 +33,7 @@
     },
     {
         "beer": "Cosmik Debris",
-        "style": "American Imperial IPA",
+        "style": "Cosmik Debris is a double IPA featuring Simcoe, Idaho 7, Mosaic, Cascade and Chinook hops, that together develop a bursting aroma of citrus zest, melon and subtle pine. The beer delivers a beautiful balance between firm bitterness and malt, with notes of starfruit and orange marmalade on the palate.",
         "brewer": "Creature Comforts",
         "score": "4.37",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/cosmik+debris.jpg",
@@ -65,7 +65,7 @@
     },
     {
         "beer": "Athena Paradiso - Cranberry, Raspberry, Tart Cherry",
-        "style": "Berliner Weisse",
+        "style": "Berliner Weisse with tart cherry, raspberry, and cranberry",
         "brewer": "Creature Comforts",
         "score": "4.34",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/paradisoCRC.jpg",
@@ -177,7 +177,7 @@
     },
     {
         "beer": "Automatic",
-        "style": "American Pale Ale (APA)",
+        "style": "Automatic is a modern pale ale with an ABV of 5.2-­‐percent that features a prominent hop flavor and aroma. The beer appears hazy and straw colored with densely packed and persistent white foam. A mix of Mosaic and Crystal hops are used to create a delicate balance and give the beer an aroma that features a complex array of berry, citrus, herbal and pine notes.",
         "brewer": "Creature Comforts",
         "score": "4.27",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/automatic.jpg",
@@ -185,7 +185,7 @@
     },
     {
         "beer": "Modern Comforts",
-        "style": "American Imperial IPA",
+        "style": "Modern Comforts is a Double IPA made with Citra & Mosaic hops and a collaboration brew with Modern Times Beer.",
         "brewer": "Creature Comforts",
         "score": "4.39",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/moderntimes.jpeg",
@@ -209,7 +209,7 @@
     },
     {
         "beer": "Koko Buni",
-        "style": "American Porter",
+        "style": "limited release milk porter with toasted coconut, cocoa nibs, and coffee, this December. We sourced the coffee beans from our friends at 1000 Faces Coffee and the cocoa nibs came from Ethereal Confections & Condor Chocolates.",
         "brewer": "Creature Comforts",
         "score": "4.24",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/kokobuni.jpg",
@@ -345,7 +345,7 @@
     },
     {
         "beer": "Double Koko Buni",
-        "style": "American Imperial Porter",
+        "style": "Double Koko is an imperial milk porter with toasted coconut, cocoa nibs, and coffee. Similar to Koko Buni, this beer was made with 1000 Faces Coffee & cocoa nibs from both Condor Chocolates and Ethereal Confections.",
         "brewer": "Creature Comforts",
         "score": "4.27",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/doublekokobuni.jpg",
@@ -401,7 +401,7 @@
     },
     {
         "beer": "Get Comfortable",
-        "style": "American IPA",
+        "style": "Collaboration with Russian River Brewing Co. to create an IPA featuring Strata, Amarillo, Comet, and Pahto hops.",
         "brewer": "Creature Comforts",
         "score": "4.22",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/getcomfortable.jpg",
@@ -593,7 +593,7 @@
     },
     {
         "beer": "Imperial Trop Haze",
-        "style": "American Imperial IPA",
+        "style": "Imperial Trop Haze is a hazy double IPA made with Citra, Centennial, and Galaxy hops. We wanted to make something really fun that we thought our biggest Trop fans would love. ",
         "brewer": "Creature Comforts",
         "score": "4.24",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/imperialtrophaze.jpg",
@@ -609,11 +609,11 @@
     },
     {
         "beer": "Oh Fantastic Then!",
-        "style": "American Pale Ale (APA)",
+        "style": "Oh, Fantastic Then! is an American Pale Ale made with Southern Passion (a rare & hard-to-find hop from South Africa), Azacca, and Mosaic hops",
         "brewer": "Creature Comforts",
         "score": "4.22",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/ohfantasticthen.jpg",
-        "abv": "5.60%"
+        "abv": "5.90%"
     },
     {
         "beer": "Steppin' Razor",
@@ -657,7 +657,7 @@
     },
     {
         "beer": "Athena",
-        "style": "Berliner Weisse",
+        "style": "Athena is a refreshing, gently tart German-style wheat beer. This take on the classic Berliner Weisse is brewed with a house blend of lactobacillus, which imparts notes of citrus, cider, and sauvignon blanc. ",
         "brewer": "Creature Comforts",
         "score": "4.05",
         "image": "https://s3.amazonaws.com/beerreview100/images/beerreviewimages/athena.jpg",
