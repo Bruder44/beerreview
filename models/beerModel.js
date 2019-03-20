@@ -42,7 +42,9 @@ var beerScheme = new Schema({
         type: Array
     },
     abv: {
-        type: Number
+        type: String,
+        trim: false,
+        required: true
     }
 })
 

@@ -37,11 +37,11 @@ class BeerCard extends Component {
                     <div className="card-body">
                         <h4>{this.state.beer.brewer}</h4>
                         <h5 className="card-title">{this.state.beer.beer}</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p className="card-text">{this.state.beer.description}</p>
                     </div>
                     <ul className="list-group list-group-flush">
-                        <li className="list-group-item">Cras justo odio</li>
-                        <li className="list-group-item">Dapibus ac facilisis in</li>
+                        <li className="list-group-item">{this.state.beer.score}</li>
+                        <li className="list-group-item">{this.state.beer.abv}</li>
                     </ul>
                 </div>
             </div>
