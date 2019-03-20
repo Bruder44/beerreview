@@ -1,6 +1,7 @@
 import React from "react";
 import { Component } from 'react';
 import API from '../../utils/API';
+import { Link } from 'react-router-dom';
 
 class Carousel extends Component {
     state = {
@@ -44,13 +45,16 @@ class Carousel extends Component {
                     </div>
                     {this.state.beers.map(beer =>                    
                         <div className="carousel-item" key={beer._id}>
-                            <img src= {beer.image} className="d-block w-100" alt="..." />
+                            <img src={beer.image} className="d-block w-100" alt="..." />
                             <div className="card">
                                 <div className="card-body">
                                     <h5 className="card-title">{beer.beer}</h5>
                                     <h6 className="card-subtitle mb-2 text-muted">{beer.brewer}</h6>
                                     <p className="card-text">Morgan Freeman's holy beer.</p>
-                                    <a href="#" className="card-link">Card link</a>
+                                    <Link to={`/beer/${beer._id}`}>
+                                        {/* <a href="#" className="card-link">Card link</a> */}
+                                        See More
+                                    </Link>
                                 </div>
                             </div>
                         </div>

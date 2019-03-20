@@ -43,12 +43,13 @@ module.exports = {
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
     },
-
+ 
 // finds data for a specific beer
     findBeerById: (req, res) => {
-        console.log(`retrieving data for ${req.body.id}`);
+        // console.log(`retrieving data for ${JSON.stringify(req, null, 4)}`);
+        console.log(req.params);
         db.Beer
-            .find({ _id: req.body.id})
+            .find({ _id: req.params._id})
             .sort({ name: -1 })
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
@@ -89,7 +90,7 @@ module.exports = {
     
 //  POST for register
     signUp: (req, res, next) => {
-        console.log('request body:');
+        console.log('request body:'+ req.body);
         if (req.body.email &&
             req.body.username &&
             req.body.password &&
@@ -105,7 +106,7 @@ module.exports = {
               // create object with form input
               var userData = {
                 email: req.body.email,
-                username: req.body.name,
+                username: req.body.username,
                 password: req.body.password
               };
         
@@ -119,6 +120,7 @@ module.exports = {
                 // }
             //   })
             db.User.create(userData)
+              .then(console.log(userData))
               .then(dbModel => res.json(dbModel))
               .catch(err => res.status(422).json(err));
               

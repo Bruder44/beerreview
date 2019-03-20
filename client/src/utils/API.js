@@ -14,6 +14,11 @@ export default {
     getSome: function () {
         console.log("fetching beers for carousel");
         return axios.get('/api/beerRoutes/');
+    },
+
+    getOne: function (_id) {
+        console.log("Getting data about your beer of choice " + _id);
+        return axios.get('/api/beerRoutes/beer/'+_id);
     }
 
 };

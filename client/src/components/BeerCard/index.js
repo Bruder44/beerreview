@@ -1,1 +1,1 @@
-export {default} from './BeerCard';
+export {default} from "./BeerCard";

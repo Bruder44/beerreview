@@ -29,7 +29,8 @@
     height: 2.5rem;
 }
 
-/* Carousel Customization */
+
+/************************   Carousel Customization    ***************************/
 .carouselSlide {
     max-width: 40vw;
     max-height: 40vh;
@@ -42,6 +43,8 @@ img {
     max-width: 50%;
     max-height: 250px;
     padding-left: 10%;
+    margin: auto;
+    border: solid 1px red;
 }
 
 .card {
@@ -67,6 +70,19 @@ img {
     padding: 10px;
     width: 10%
 }
+
+
+/************************   Carousel Customization    ***************************/
+.beerCard {
+    max-width: 40%;
+    margin: 25px auto;
+    border: solid 2px grey;
+}
+
+.beerCard-img-top {
+    padding: 15px;
+}
+
 
 
 
