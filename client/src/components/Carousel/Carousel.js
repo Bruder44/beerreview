@@ -70,7 +70,7 @@ class Carousel extends Component {
                         </div>
                     </div> */}
                     {this.state.beers.map((beer, index) =>                    
-                        <div className={index == this.state.activeIndex ? 'carousel_slide carousel_slide--active' : 'carousel_slide'}  key={index}>
+                        <div className={index === this.state.activeIndex ? 'carousel_slide carousel_slide--active' : 'carousel_slide'}  key={index}>
                             <img src={beer.image} className="d-block w-100" alt="..." />
                             <div className="card">  
                                 <div className="card-body">
