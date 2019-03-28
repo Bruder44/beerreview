@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "beerreview-20190328180518-authRole",
+            "UnauthRoleArn": "arn:aws:iam::934038507613:role/beerreview-20190328180518-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::934038507613:role/beerreview-20190328180518-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "beerreview-20190328180518-deployment",
+            "UnauthRoleName": "beerreview-20190328180518-unauthRole",
+            "StackName": "beerreview-20190328180518",
+            "StackId": "arn:aws:cloudformation:us-east-1:934038507613:stack/beerreview-20190328180518/92cca690-51a5-11e9-81ee-120261667484"
+        }
+    }
+}

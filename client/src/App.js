@@ -5,6 +5,13 @@ import SignUp from './pages/SignUp';
 import Individual from './pages/Individual';
 import UploadForm from './pages/UploadForm';
 import './App.css';
+// import Amplify from 'aws-amplify';
+import awsmobile from './aws-exports';
+// import { withAuthenticator } from 'aws-amplify-react'; // or 'aws-amplify-react-native';
+import Amplify, { Analytics, Storage } from 'aws-amplify';
+import { withAuthenticator, S3Album } from 'aws-amplify-react';
+
+Amplify.configure(awsmobile);
 
 class App extends Component {
   render() {

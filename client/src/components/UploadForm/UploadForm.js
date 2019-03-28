@@ -98,6 +98,8 @@ class UploadForm extends Component {
             <div className="uploadForm">
                 {/* <Authenticator federated={federated} includeGreetings={true}> */}
                 {/* <S3Album picker /> */}
+                <div className= "BeerUpload">Select Beer Photo to Upload Below:</div>
+                <br />
                 <input id="photoupload" type="file" accept="image/*" onChange={this.handleUpload.bind(this)} />
                 <br />
                 {this.state.filePath ? (this.state && <img className="image-upload" src={'https://s3.amazonaws.com/beerreview100/images/beerreviewimages/' + this.state.filePath} alt="" />) : (<div className={"hidden"} />)}
@@ -105,22 +107,41 @@ class UploadForm extends Component {
                     <div className="form-group row">
                         {/* <label htmlFor="colFormLabelSm" className="galada-fnt col-sm-2 col-form-label col-form-label-sm">Add a Category:</label> */}
                         <div className="">
-                            <br />
-                            <div className="BeerName">Beer Name:</div>
-                            <br />
-                            <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Beer Name Here" onChange={this.handleInputChange} />
-                            <br />
-                            <div className="pairingNotes">Pairing Notes:</div>
-                            <div className="pairingNotes">Seperate Different Pairing Notes With Commas...</div>
-                            <br />
-                            <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Pairing Notes Here" onChange={this.handleInputChange} />
+                        <br />
+                        <div className="BeerName">Beer Name:</div>
+                        <br />
+                        <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Beer Name Here" onChange={this.handleInputChange} />
+                        <br />
+                        <div className="Brewer">Brewery:</div>
+                        <br />
+                        <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Brewery Name Here" onChange={this.handleInputChange} />
+                        <br />
+                        <div className="Style">Style:</div>
+                        <br />
+                        <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Beer Style Here" onChange={this.handleInputChange} />
+                        <br />
+                        <div className ="Description">Beer Description:</div>                            <br />
+                        <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Beer Description Here" onChange={this.handleInputChange} />
+                        <br />
+                        <div className="UserRating">Insert User Rating (1.0-5.0):</div>
+                        <br />
+                        <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Your Rating of this Beer (1.0-5.0) Here" onChange={this.handleInputChange} />
+                        <br />
+                        <div className="ABV">Beer ABV:</div>
+                        <br />
+                        <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Beer ABV Here" onChange={this.handleInputChange} />
+                        <br />
+                        <div className="pairingNotes">Beer Pairing Notes:</div>
+                        <div className="pairingNotes">Seperate Different Beer Pairing Notes With Commas...</div>
+                        <br />
+                        <input type="string" className="form-control form-control-sm tags-text" id="colFormLabelSm" placeholder="Insert Pairing Notes Here" onChange={this.handleInputChange} />
                         </div>
                     </div>
                     <div>
-                        <button className='btn' id="addphoto" onClick={this.mongoUpload}> Add Photo </button>
+                        <button className='btn' id="addphoto" onClick={this.mongoUpload}> Add Beer </button>
                         <br />
                         <br />
-                        <div className="upload-terms">By uploading to memePie you agree to the <a href="/terms">Terms and Conditions</a></div>
+                        <div className="upload-terms">By uploading to BeerReview you agree to the <a href="/terms">Terms and Conditions</a></div>
                     </div>
                 </form>
                 {/* </ Authenticator> */}
