@@ -19,6 +19,12 @@ export default {
     getOne: function (_id) {
         console.log("Getting data about your beer of choice " + _id);
         return axios.get('/api/beerRoutes/beer/'+_id);
-    }
+    },
+    
+    uploadBeer: function (data) {
+        console.log("adding new beer to database...");
+        console.log(data);
+        return axios.post("/api/beerRoutes/newBeer", data);
 
+    }
 };

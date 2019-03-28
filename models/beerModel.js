@@ -45,6 +45,10 @@ var beerScheme = new Schema({
         type: String,
         trim: false,
         required: true
+    },
+    uploadedBy: {
+        type: String,
+        trim: false,
     }
 })
 
